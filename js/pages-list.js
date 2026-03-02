@@ -21,15 +21,15 @@ function renderPagesTable() {
       </td>
 
       <td>
-        ${renderLanguages(page.language)}
+        ${renderLanguages(page)}
       </td>
 
-      <td>${page.lastUpdated}</td>
+      <td>${getLatestUpdated(page)}</td>
 
       <td>
         <div class="action-buttons">
           <a class="btn-action btn-edit"
-             href="page-content.html?id=${page.slug}">
+             href="page-content.html?id=${page.slug}&lang=DE">
             <i class="bi bi-pencil"></i>
           </a>
         </div>
@@ -40,8 +40,20 @@ function renderPagesTable() {
   });
 }
 
-function renderLanguages(languages) {
-  return languages.map(lang =>
-    `<span class="job-lang badge-lang-${lang.toLowerCase()}">${lang}</span>`
-  ).join(" ");
+function renderLanguages(page) {
+  const langs = (page.contents || []).map(c => c.lang);  // ["DE","EN"]
+  if (!langs.length) return `<span class="text-muted">—</span>`;
+
+  return langs
+    .map(l => `<span class="badge bg-secondary me-1">${l}</span>`)
+    .join("");
+}
+
+function getLatestUpdated(page) {
+  const dates = (page.contents || [])
+    .map(c => c.lastUpdated)
+    .filter(Boolean)
+    .sort()
+    .reverse();
+  return dates[0] || "—";
 }

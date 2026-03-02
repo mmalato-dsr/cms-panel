@@ -33,7 +33,9 @@
                         <h2 class="fw-bold">
                             Edit Page Content - ( <span class="page-bind" data-bind="title"></span> )
                         </h2>
-                        <span class="page-bind text-white text-small" data-bind="urls"></span>
+                        <span class="page-bind text-white text-small" data-bind="url"></span>
+                        [<span class="page-bind text-white text-small" data-bind="lang"></span>]
+
                     </div>
                     <div class="row mb-2 g-2 justify-content-end">
                         <div class="col-auto">
@@ -100,49 +102,59 @@
                         </div>
                         <div class="card-body">
                             <div class="element-group mb-4">
-                                <h6 class="fw-bold mb-2">Page Types</h6>
+                                <h6 class="fw-bold mb-2">Block Types</h6>
                                 <div class="list-group list-group-sm">
-
                                     <a href="#" class="list-group-item list-group-item-action" draggable="true"
-                                        data-block-type="header">
-                                        Header
+                                        data-drag-kind="block" data-block-type="dsrTemplate1.generic.header">
+                                        Header Section
                                     </a>
 
                                     <a href="#" class="list-group-item list-group-item-action" draggable="true"
-                                        data-block-type="grid">
-                                        Grid
+                                        data-drag-kind="block" data-block-type="dsrTemplate1.generic.grid">
+                                        Grid Section
                                     </a>
 
                                     <a href="#" class="list-group-item list-group-item-action" draggable="true"
-                                        data-block-type="faq">
-                                        Have Questions?
+                                        data-drag-kind="block" data-block-type="dsrTemplate1.generic.text_image_section">
+                                        Text and Image Section
                                     </a>
 
                                     <a href="#" class="list-group-item list-group-item-action" draggable="true"
-                                        data-block-type="sections">
-                                        Sections
+                                        data-drag-kind="block" data-block-type="dsrTemplate1.homepage.call_to_action">
+                                        Call-to-Action
                                     </a>
-
                                 </div>
                             </div>
 
                             <div class="element-group mb-4">
-                                <h6 class="fw-bold mb-2">Block Types</h6>
+                                <h6 class="fw-bold mb-2">Block Content Types</h6>
                                 <div class="list-group list-group-sm">
-                                    <a href="#" class="list-group-item list-group-item-action" draggable="true">Video
-                                    </a>
-                                    <a href="#" class="list-group-item list-group-item-action" draggable="true">Image
-                                    </a>
-                                    <a href="#" class="list-group-item list-group-item-action" draggable="true">Generic
-                                        Call-to-Action</a>
-                                    <a href="#" class="list-group-item list-group-item-action" draggable="true">Generic
-                                        &lt;h1&gt;</a>
-                                    <a href="#" class="list-group-item list-group-item-action" draggable="true">Generic
-                                        Text block</a>
-                                    <a href="#" class="list-group-item list-group-item-action" draggable="true">Generic
-                                        Back Button</a>
-                                    <a href="#" class="list-group-item list-group-item-action" draggable="true">Generic
-                                        Link Button</a>
+                                    <div class="list-group list-group-sm">
+                                        <a href="#" class="list-group-item list-group-item-action" draggable="true"
+                                            data-drag-kind="element" data-element-type="image">
+                                            Image
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action" draggable="true"
+                                            data-drag-kind="element" data-element-type="video">
+                                            Video
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action" draggable="true"
+                                            data-drag-kind="element" data-element-type="h1">
+                                            Generic Title
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action" draggable="true"
+                                            data-drag-kind="element" data-element-type="text">
+                                            Generic Paragraph
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action" draggable="true"
+                                            data-drag-kind="element" data-element-type="cta">
+                                            Generic Button
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
 
