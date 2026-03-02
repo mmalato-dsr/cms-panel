@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const slug = params.get("id");
   const lang = (params.get("lang") || "DE").toUpperCase(); // default DE
 
-  if (["services", "job-details", "news-details"].includes(slug)) {
+  if (["services", "job-details", "news-details", "use-case"].includes(slug)) {
     initCollectionTabs(slug, lang);
     return;
   }
@@ -1019,7 +1019,8 @@ function getCollectionById(id) {
   const map = {
     services: window.services,
     "job-details": window.jobs,
-    "news-details": window.news
+    "news-details": window.news,
+    "use-case": window.reviews
   };
   return map[id] || [];
 }

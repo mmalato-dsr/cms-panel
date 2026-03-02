@@ -82,42 +82,42 @@ window.pages = [
                                     icon: 401,
                                     title: "DSR24 für Werkstatt",
                                     text: "Die Ideallinie für Ihr erfolgreiches Schadenmanagement.",
-                                    buttonLink: "/services?id=werksttat",
+                                    buttonlink: "/services?id=werksttat",
                                     buttonnewtab: true
                                 },
                                 {
                                     icon: 402,
                                     title: "DSR24 für Autovermietungen",
                                     text: "So sind Sie in Sachen Ersatz­fahr­zeug der Ansprech­partner Nr.1.",
-                                    buttonLink: "/services?id=autovermietungen",
+                                    buttonlink: "/services?id=autovermietungen",
                                     buttonnewtab: true
                                 },
                                 {
                                     icon: 403,
                                     title: "DSR24 für Rechtsanwälte",
                                     text: "So einfach sichern Sie sich regel­mäßige Mandate.",
-                                    buttonLink: "/services?id=rechtsanwaelte",
+                                    buttonlink: "/services?id=rechtsanwaelte",
                                     buttonnewtab: true
                                 },
                                 {
                                     icon: 404,
                                     title: "DSR24 für Kfz-Sachverständige",
                                     text: "So erhalten Sie Aufträge schnell und unkompliziert.",
-                                    buttonLink: "/services?id=sachverstaendige",
+                                    buttonlink: "/services?id=sachverstaendige",
                                     buttonnewtab: true
                                 },
                                 {
                                     icon: 405,
                                     title: "DSR24 für Abschleppdienste",
                                     text: "So sind Sie bei Bergungsbedarf die erste Wahl.",
-                                    buttonLink: "/services?id=abschleppdienste",
+                                    buttonlink: "/services?id=abschleppdienste",
                                     buttonnewtab: true
                                 },
                                 {
                                     icon: 406,
                                     title: "Schnelle Hilfe bei Unfallschäden",
                                     text: "Hier bekommen Sie im Fall eines Unfalls alles aus einer Hand!",
-                                    buttonLink: "/services?id=unfallschaeden",
+                                    buttonlink: "/services?id=unfallschaeden",
                                     buttonnewtab: true
                                 }
 
@@ -230,8 +230,8 @@ window.pages = [
                             title: "Wie alles begann",
                             subtitle: "Wie alles begann",
                             items: [
-                                { icon: 1001, title: "News", buttonLink: "/news", buttonnewtab: true },
-                                { icon: 1002, title: "Jobs", buttonLink: "/jobs", buttonnewtab: true },
+                                { icon: 1001, title: "News", buttonlink: "/news", buttonnewtab: true },
+                                { icon: 1002, title: "Jobs", buttonlink: "/jobs", buttonnewtab: true },
                             ]
                         },
                         {
@@ -245,7 +245,7 @@ window.pages = [
                                     age: "32 Jahre",
                                     job: "Arztin",
                                     text: "DSR24 hat mir geholfen, 2.500€ von der gegnerischen Versicherung zu erhalten!",
-                                    buttonLink: "/use-case?id=1",
+                                    buttonlink: "/use-case?id=1",
                                     buttoncaption: "Geschichte lesen",
                                     buttonnewtab: true
                                 },
@@ -255,7 +255,7 @@ window.pages = [
                                     age: "45 Jahre",
                                     job: "Ingenieur",
                                     text: "Schnell, professionell und ohne Stress.Ich kann DSR24 wirklich empfehlen!",
-                                    buttonLink: "/use-case?id=2",
+                                    buttonlink: "/use-case?id=2",
                                     buttoncaption: "Geschichte lesen",
                                     buttonnewtab: true
                                 },
@@ -265,7 +265,7 @@ window.pages = [
                                     age: "28 Jahre",
                                     job: "Lehrerin aus Hamburg",
                                     text: "DSR24 hat sich um alles gekümmert. Ich musste mich um nichts sorgen!.",
-                                    buttonLink: "/use-case?id=3",
+                                    buttonlink: "/use-case?id=3",
                                     buttoncaption: "Geschichte lesen",
                                     buttonnewtab: true
                                 },
@@ -277,10 +277,10 @@ window.pages = [
                             subtitle: "Quick Actions",
                             enabled: true,
                             items: [
-                                { icon: 1003, title: "DsrKlaert", buttonLink: "/dsrklaert", buttonnewtab: true },
-                                { icon: 1005, title: "FAQ", buttonLink: "/faq", buttonnewtab: true },
-                                { icon: 1006, title: "Blog", buttonLink: "/blog", buttonnewtab: true },
-                                { icon: 1007, title: "Downloads", buttonLink: "/download", buttonnewtab: true }
+                                { icon: 1003, title: "DsrKlaert", buttonlink: "/dsrklaert", buttonnewtab: true },
+                                { icon: 1005, title: "FAQ", buttonlink: "/faq", buttonnewtab: true },
+                                { icon: 1006, title: "Blog", buttonlink: "/blog", buttonnewtab: true },
+                                { icon: 1007, title: "Downloads", buttonlink: "/download", buttonnewtab: true }
                             ]
                         },
                         {
@@ -380,42 +380,42 @@ window.pages = [
                                     icon: 401,
                                     title: "DSR24 for Workshops",
                                     text: "The ideal line for your successful damage management.",
-                                    buttonLink: "/services?id=workshops",
+                                    buttonlink: "/services?id=workshops",
                                     buttonnewtab: true
                                 },
                                 {
                                     icon: 402,
                                     title: "DSR24 for Car Rental",
                                     text: "Be the first contact for replacement vehicle needs.",
-                                    buttonLink: "/services?id=car-rental",
+                                    buttonlink: "/services?id=car-rental",
                                     buttonnewtab: true
                                 },
                                 {
                                     icon: 403,
                                     title: "DSR24 for Lawyers",
                                     text: "Easily secure regular client mandates.",
-                                    buttonLink: "/services?id=lawyers",
+                                    buttonlink: "/services?id=lawyers",
                                     buttonnewtab: true
                                 },
                                 {
                                     icon: 404,
                                     title: "DSR24 for Appraisers",
                                     text: "Get assignments quickly and easily.",
-                                    buttonLink: "/services?id=appraisers",
+                                    buttonlink: "/services?id=appraisers",
                                     buttonnewtab: true
                                 },
                                 {
                                     icon: 405,
                                     title: "DSR24 for Towing Services",
                                     text: "Be the first choice for recovery needs.",
-                                    buttonLink: "/services?id=towing",
+                                    buttonlink: "/services?id=towing",
                                     buttonnewtab: true
                                 },
                                 {
                                     icon: 406,
                                     title: "Fast Help for Accident Damage",
                                     text: "Get everything from one source in case of an accident!",
-                                    buttonLink: "/services?id=accident-damage",
+                                    buttonlink: "/services?id=accident-damage",
                                     buttonnewtab: true
                                 }
 
@@ -528,8 +528,8 @@ window.pages = [
                             title: "How it all began",
                             subtitle: "How it all began",
                             items: [
-                                { icon: 1001, title: "News", buttonLink: "/news", buttonnewtab: true },
-                                { icon: 1002, title: "Jobs", buttonLink: "/jobs", buttonnewtab: true },
+                                { icon: 1001, title: "News", buttonlink: "/news", buttonnewtab: true },
+                                { icon: 1002, title: "Jobs", buttonlink: "/jobs", buttonnewtab: true },
                             ]
                         },
                         {
@@ -543,7 +543,7 @@ window.pages = [
                                     age: "32 years",
                                     job: "Doctor",
                                     text: "DSR24 helped me get €2,500 from the third-party insurance!",
-                                    buttonLink: "/use-case?id=1",
+                                    buttonlink: "/use-case?id=1",
                                     buttoncaption: "Read story",
                                     buttonnewtab: true
                                 },
@@ -553,7 +553,7 @@ window.pages = [
                                     age: "45 years",
                                     job: "Engineer",
                                     text: "Quick, professional, and stress-free. I can really recommend DSR24!",
-                                    buttonLink: "/use-case?id=2",
+                                    buttonlink: "/use-case?id=2",
                                     buttoncaption: "Read story",
                                     buttonnewtab: true
                                 },
@@ -563,7 +563,7 @@ window.pages = [
                                     age: "28 years",
                                     job: "Teacher from Hamburg",
                                     text: "DSR24 took care of everything. I didn't have to worry about anything!",
-                                    buttonLink: "/use-case?id=3",
+                                    buttonlink: "/use-case?id=3",
                                     buttoncaption: "Read story",
                                     buttonnewtab: true
                                 },
@@ -575,10 +575,10 @@ window.pages = [
                             subtitle: "Quick Actions",
                             enabled: true,
                             items: [
-                                { icon: 1003, title: "DSR Clarifies", buttonLink: "/dsr-clarifies", buttonnewtab: true },
-                                { icon: 1005, title: "FAQ", buttonLink: "/faq", buttonnewtab: true },
-                                { icon: 1006, title: "Blog", buttonLink: "/blog", buttonnewtab: true },
-                                { icon: 1007, title: "Downloads", buttonLink: "/download", buttonnewtab: true }
+                                { icon: 1003, title: "DSR Clarifies", buttonlink: "/dsr-clarifies", buttonnewtab: true },
+                                { icon: 1005, title: "FAQ", buttonlink: "/faq", buttonnewtab: true },
+                                { icon: 1006, title: "Blog", buttonlink: "/blog", buttonnewtab: true },
+                                { icon: 1007, title: "Downloads", buttonlink: "/download", buttonnewtab: true }
                             ]
                         },
                         {
@@ -746,24 +746,152 @@ window.pages = [
                     {
                         type: "dsrTemplate1.blog.header",
                         enabled: true,
-                        title: "Unser Blog",
-                        subtitle: "Die neuesten Artikel und Nachrichten",
+                        kicker: "#",
+                        title: "Blog",
+                        subtitle_1: "Aktuelle Tipps und Neuigkeiten rund um Unfallschäden",
+                        text: "Klicken Sie auf eine Karte, um die Erklärung zu sehen",
                         backgroundimage: 123
                     },
                     {
-                        type: "dsrTemplate1.blog.search",
+                        type: "dsrTemplate1.blog.search_filters",
                         enabled: true,
-                        placeholder: "Blog durchsuchen...",
-                        title: "Nach Artikeln suchen"
+                        placeholder: "Suche nach Thema, Stichwort...",
+                        filters: [
+                            { key: "all", label: "Alle" },
+                            { key: "news", label: "News" },
+                            { key: "tips", label: "Tipps & Tricks" },
+                            { key: "law", label: "Recht & Versicherung" },
+                            { key: "guides", label: "Ratgeber" }
+                        ],
+                        activeFilter: "all"
                     },
                     {
                         type: "dsrTemplate1.blog.grid",
                         enabled: true,
-                        title: "Blog Artikel",
-                        items: []
+                        itemsPerRow: 3,
+                        items: [
+                            {
+                                id: 1,
+                                categoryKey: "tips",
+                                categoryLabel: "Tipps & Tricks",
+                                date: "2026-01-28",
+                                readTime: "5 Min",
+                                title: "5 wichtige Schritte nach einem Autounfall",
+                                excerpt: "Was Sie direkt nach dem Unfall beachten sollten, um Ihre Ansprüche zu sichern.",
+                                buttoncaption: "Weiterlesen",
+                                buttonlink: "blog-details.html?id=5-schritte-nach-unfall",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 2,
+                                categoryKey: "law",
+                                categoryLabel: "Recht & Versicherung",
+                                date: "2026-01-25",
+                                readTime: "8 Min",
+                                title: "Neue Regelungen zur Schadenregulierung 2026",
+                                excerpt: "Welche Änderungen gibt es – und was bedeutet das für Geschädigte?",
+                                buttoncaption: "Weiterlesen",
+                                buttonlink: "blog-details.html?id=regelungen-2026",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 3,
+                                categoryKey: "guides",
+                                categoryLabel: "Ratgeber",
+                                date: "2026-01-22",
+                                readTime: "6 Min",
+                                title: "Gutachten verstehen: Begriffe und Werte erklärt",
+                                excerpt: "Was bedeutet Wiederbeschaffungswert, Restwert und merkantiler Minderwert?",
+                                buttoncaption: "Weiterlesen",
+                                buttonlink: "blog-details.html?id=gutachten-verstehen",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 4,
+                                categoryKey: "news",
+                                categoryLabel: "News",
+                                date: "2026-01-20",
+                                readTime: "3 Min",
+                                title: "DSR24 erweitert Partnernetzwerk",
+                                excerpt: "Mehr Werkstätten, Gutachter und Anwälte – für noch schnellere Abwicklung.",
+                                buttoncaption: "Weiterlesen",
+                                buttonlink: "blog-details.html?id=partnernetzwerk",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 5,
+                                categoryKey: "tips",
+                                categoryLabel: "Tipps & Tricks",
+                                date: "2026-01-18",
+                                readTime: "4 Min",
+                                title: "Mietwagen: Das sollten Sie wissen",
+                                excerpt: "Wann besteht Anspruch und wie vermeiden Sie Kostenfallen?",
+                                buttoncaption: "Weiterlesen",
+                                buttonlink: "blog-details.html?id=mietwagen-wissen",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 6,
+                                categoryKey: "law",
+                                categoryLabel: "Recht & Versicherung",
+                                date: "2026-01-15",
+                                readTime: "7 Min",
+                                title: "Schmerzensgeld: Berechnung und Ansprüche",
+                                excerpt: "Welche Faktoren zählen – und wie setzt man Ansprüche korrekt durch?",
+                                buttoncaption: "Weiterlesen",
+                                buttonlink: "blog-details.html?id=schmerzensgeld",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 7,
+                                categoryKey: "guides",
+                                categoryLabel: "Ratgeber",
+                                date: "2026-01-12",
+                                readTime: "5 Min",
+                                title: "Die richtige Werkstatt finden",
+                                excerpt: "Vertragswerkstatt oder freie Werkstatt? Worauf es wirklich ankommt.",
+                                buttoncaption: "Weiterlesen",
+                                buttonlink: "blog-details.html?id=werkstatt-finden",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 8,
+                                categoryKey: "tips",
+                                categoryLabel: "Tipps & Tricks",
+                                date: "2026-01-10",
+                                readTime: "4 Min",
+                                title: "Unfallstelle richtig dokumentieren",
+                                excerpt: "Fotos, Daten, Zeugen: so sichern Sie Beweise für die Regulierung.",
+                                buttoncaption: "Weiterlesen",
+                                buttonlink: "blog-details.html?id=unfallstelle-dokumentieren",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 9,
+                                categoryKey: "news",
+                                categoryLabel: "News",
+                                date: "2026-01-08",
+                                readTime: "6 Min",
+                                title: "Digitalisierung in der Schadenbearbeitung",
+                                excerpt: "Wie moderne Tools die Prozesse beschleunigen und transparenter machen.",
+                                buttoncaption: "Weiterlesen",
+                                buttonlink: "blog-details.html?id=digitalisierung",
+                                buttonnewtab: false,
+                                image: 0
+                            }
+                        ]
                     }
                 ]
             },
+
             {
                 url: "dsr24.de/en/blog",
                 lang: "EN",
@@ -772,21 +900,148 @@ window.pages = [
                     {
                         type: "dsrTemplate1.blog.header",
                         enabled: true,
-                        title: "Our Blog",
-                        subtitle: "The latest articles and news",
+                        kicker: "#",
+                        title: "Blog",
+                        subtitle_1: "Latest tips and updates about accident claims",
+                        text: "Click a card to view the explanation",
                         backgroundimage: 123
                     },
                     {
-                        type: "dsrTemplate1.blog.search",
+                        type: "dsrTemplate1.blog.search_filters",
                         enabled: true,
-                        placeholder: "Search blog...",
-                        title: "Search Articles"
+                        placeholder: "Search by topic, keyword...",
+                        filters: [
+                            { key: "all", label: "All" },
+                            { key: "news", label: "News" },
+                            { key: "tips", label: "Tips & Tricks" },
+                            { key: "law", label: "Law & Insurance" },
+                            { key: "guides", label: "Guides" }
+                        ],
+                        activeFilter: "all"
                     },
                     {
                         type: "dsrTemplate1.blog.grid",
                         enabled: true,
-                        title: "Blog Articles",
-                        items: []
+                        itemsPerRow: 3,
+                        items: [
+                            {
+                                id: 1,
+                                categoryKey: "tips",
+                                categoryLabel: "Tips & Tricks",
+                                date: "2026-01-28",
+                                readTime: "5 min",
+                                title: "5 important steps after a car accident",
+                                excerpt: "What to do right after an accident to protect your claims.",
+                                buttoncaption: "Read more",
+                                buttonlink: "blog-details.html?id=5-steps-after-accident",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 2,
+                                categoryKey: "law",
+                                categoryLabel: "Law & Insurance",
+                                date: "2026-01-25",
+                                readTime: "8 min",
+                                title: "New claim settlement rules for 2026",
+                                excerpt: "What changed and what it means for claimants.",
+                                buttoncaption: "Read more",
+                                buttonlink: "blog-details.html?id=rules-2026",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 3,
+                                categoryKey: "guides",
+                                categoryLabel: "Guides",
+                                date: "2026-01-22",
+                                readTime: "6 min",
+                                title: "Understanding expert reports: key terms explained",
+                                excerpt: "Replacement value, residual value, diminished value — explained.",
+                                buttoncaption: "Read more",
+                                buttonlink: "blog-details.html?id=understanding-reports",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 4,
+                                categoryKey: "news",
+                                categoryLabel: "News",
+                                date: "2026-01-20",
+                                readTime: "3 min",
+                                title: "DSR24 expands partner network",
+                                excerpt: "More workshops and experts for faster processing.",
+                                buttoncaption: "Read more",
+                                buttonlink: "blog-details.html?id=partner-network",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 5,
+                                categoryKey: "tips",
+                                categoryLabel: "Tips & Tricks",
+                                date: "2026-01-18",
+                                readTime: "4 min",
+                                title: "Rental car: what you need to know",
+                                excerpt: "When you’re entitled to a replacement car and how to avoid pitfalls.",
+                                buttoncaption: "Read more",
+                                buttonlink: "blog-details.html?id=rental-car",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 6,
+                                categoryKey: "law",
+                                categoryLabel: "Law & Insurance",
+                                date: "2026-01-15",
+                                readTime: "7 min",
+                                title: "Pain and suffering: calculation and claims",
+                                excerpt: "What matters and how claims are typically handled.",
+                                buttoncaption: "Read more",
+                                buttonlink: "blog-details.html?id=pain-suffering",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 7,
+                                categoryKey: "guides",
+                                categoryLabel: "Guides",
+                                date: "2026-01-12",
+                                readTime: "5 min",
+                                title: "Finding the right workshop",
+                                excerpt: "Authorized vs independent repair shops — what to consider.",
+                                buttoncaption: "Read more",
+                                buttonlink: "blog-details.html?id=right-workshop",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 8,
+                                categoryKey: "tips",
+                                categoryLabel: "Tips & Tricks",
+                                date: "2026-01-10",
+                                readTime: "4 min",
+                                title: "Properly documenting the accident scene",
+                                excerpt: "Photos, details, witnesses — secure your evidence.",
+                                buttoncaption: "Read more",
+                                buttonlink: "blog-details.html?id=document-scene",
+                                buttonnewtab: false,
+                                image: 0
+                            },
+                            {
+                                id: 9,
+                                categoryKey: "news",
+                                categoryLabel: "News",
+                                date: "2026-01-08",
+                                readTime: "6 min",
+                                title: "Digitalization of claim processing",
+                                excerpt: "How modern tools speed up and improve transparency.",
+                                buttoncaption: "Read more",
+                                buttonlink: "blog-details.html?id=digitalization",
+                                buttonnewtab: false,
+                                image: 0
+                            }
+                        ]
                     }
                 ]
             }
@@ -806,18 +1061,112 @@ window.pages = [
                     {
                         type: "dsrTemplate1.downloads.header",
                         enabled: true,
+                        kicker: "#",
                         title: "Downloads",
-                        subtitle: "Alle Dokumente und Dateien zum Herunterladen",
+                        subtitle: "Nützliche Dokumente und Formulare für Sie",
+                        text: "Laden Sie wichtige Dokumente direkt herunter.",
                         backgroundimage: 123
                     },
                     {
                         type: "dsrTemplate1.downloads.grid",
                         enabled: true,
-                        title: "Verfügbare Downloads",
-                        items: []
+                        itemsPerRow: 3,
+                        items: [
+                            {
+                                id: 1,
+                                title: "Unfallbericht Formular",
+                                text: "Europäischer Unfallbericht zum Ausfüllen.",
+                                fileType: "PDF",
+                                fileSize: "2.3 MB",
+                                downloadUrl: "/downloads/unfallbericht.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 2,
+                                title: "Checkliste Unfallstelle",
+                                text: "Was ist direkt am Unfallort zu beachten?",
+                                fileType: "PDF",
+                                fileSize: "1.1 MB",
+                                downloadUrl: "/downloads/checkliste-unfallstelle.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 3,
+                                title: "Vollmacht zur Schadenregulierung",
+                                text: "Vollmacht für die Abwicklung über DSR24.",
+                                fileType: "PDF",
+                                fileSize: "850 KB",
+                                downloadUrl: "/downloads/vollmacht.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 4,
+                                title: "Informationen zum Mietwagen",
+                                text: "Wichtige Infos zum Ersatzfahrzeug.",
+                                fileType: "PDF",
+                                fileSize: "1.5 MB",
+                                downloadUrl: "/downloads/mietwagen-info.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 5,
+                                title: "Leitfaden Gutachten",
+                                text: "Gutachten richtig verstehen – kompakt erklärt.",
+                                fileType: "PDF",
+                                fileSize: "2.8 MB",
+                                downloadUrl: "/downloads/leitfaden-gutachten.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 6,
+                                title: "Versicherungsleitfaden",
+                                text: "Die wichtigsten Fragen rund um Versicherungen.",
+                                fileType: "PDF",
+                                fileSize: "1.9 MB",
+                                downloadUrl: "/downloads/versicherungsleitfaden.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 7,
+                                title: "Schadensmeldung Formular",
+                                text: "Schnelle Schadensmeldung – einfach ausfüllen.",
+                                fileType: "PDF",
+                                fileSize: "1.2 MB",
+                                downloadUrl: "/downloads/schadensmeldung.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 8,
+                                title: "Rechte nach einem Unfall",
+                                text: "Ihre Ansprüche im Überblick.",
+                                fileType: "PDF",
+                                fileSize: "2.1 MB",
+                                downloadUrl: "/downloads/rechte-nach-unfall.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 9,
+                                title: "Versicherungsbrief Muster",
+                                text: "Vorlage zur Korrespondenz mit der Versicherung.",
+                                fileType: "PDF",
+                                fileSize: "750 KB",
+                                downloadUrl: "/downloads/versicherungsbrief-muster.pdf",
+                                icon: "pdf"
+                            }
+                        ]
+                    },
+                    {
+                        type: "dsrTemplate1.downloads.helpbox",
+                        enabled: true,
+                        title: "Brauchen Sie Hilfe?",
+                        text: "Falls Sie Fragen zu den Dokumenten haben oder Unterstützung beim Ausfüllen benötigen, kontaktieren Sie uns gerne. Unser Team steht Ihnen zur Verfügung!",
+                        buttoncaption: "Jetzt Kontakt aufnehmen",
+                        buttonlink: "/kontakt",
+                        buttonnewtab: false
                     }
                 ]
             },
+
             {
                 url: "dsr24.de/en/downloads",
                 lang: "EN",
@@ -826,15 +1175,108 @@ window.pages = [
                     {
                         type: "dsrTemplate1.downloads.header",
                         enabled: true,
+                        kicker: "#",
                         title: "Downloads",
-                        subtitle: "All documents and files available for download",
+                        subtitle: "Useful documents and forms for you",
+                        text: "Download important documents instantly.",
                         backgroundimage: 123
                     },
                     {
                         type: "dsrTemplate1.downloads.grid",
                         enabled: true,
-                        title: "Available Downloads",
-                        items: []
+                        itemsPerRow: 3,
+                        items: [
+                            {
+                                id: 1,
+                                title: "Accident Report Form",
+                                text: "European accident report form to complete.",
+                                fileType: "PDF",
+                                fileSize: "2.3 MB",
+                                downloadUrl: "/downloads/accident-report.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 2,
+                                title: "Accident Scene Checklist",
+                                text: "What to do at the accident scene.",
+                                fileType: "PDF",
+                                fileSize: "1.1 MB",
+                                downloadUrl: "/downloads/accident-scene-checklist.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 3,
+                                title: "Power of Attorney",
+                                text: "Authorization for DSR24 claim settlement.",
+                                fileType: "PDF",
+                                fileSize: "850 KB",
+                                downloadUrl: "/downloads/power-of-attorney.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 4,
+                                title: "Rental Car Information",
+                                text: "Key information about replacement vehicles.",
+                                fileType: "PDF",
+                                fileSize: "1.5 MB",
+                                downloadUrl: "/downloads/rental-car-info.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 5,
+                                title: "Expert Report Guide",
+                                text: "Understand expert reports correctly.",
+                                fileType: "PDF",
+                                fileSize: "2.8 MB",
+                                downloadUrl: "/downloads/expert-report-guide.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 6,
+                                title: "Insurance Guide",
+                                text: "Important questions about insurance.",
+                                fileType: "PDF",
+                                fileSize: "1.9 MB",
+                                downloadUrl: "/downloads/insurance-guide.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 7,
+                                title: "Damage Report Form",
+                                text: "Quick damage report – easy to fill out.",
+                                fileType: "PDF",
+                                fileSize: "1.2 MB",
+                                downloadUrl: "/downloads/damage-report.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 8,
+                                title: "Your Rights After an Accident",
+                                text: "Overview of your claims and rights.",
+                                fileType: "PDF",
+                                fileSize: "2.1 MB",
+                                downloadUrl: "/downloads/rights-after-accident.pdf",
+                                icon: "pdf"
+                            },
+                            {
+                                id: 9,
+                                title: "Insurance Letter Template",
+                                text: "Template for communication with insurers.",
+                                fileType: "PDF",
+                                fileSize: "750 KB",
+                                downloadUrl: "/downloads/insurance-letter-template.pdf",
+                                icon: "pdf"
+                            }
+                        ]
+                    },
+                    {
+                        type: "dsrTemplate1.downloads.helpbox",
+                        enabled: true,
+                        title: "Need help?",
+                        text: "If you have questions about these documents or need help filling them out, feel free to contact us. Our team is here for you!",
+                        buttoncaption: "Contact us",
+                        buttonlink: "/contact",
+                        buttonnewtab: false
                     }
                 ]
             }
@@ -847,54 +1289,315 @@ window.pages = [
         title: "FAQ",
         contents: [
             {
-                url: "dsr24.de/haeufig-gestellte-fragen",
+                url: "dsr24.de/faq.html",
                 lang: "DE",
                 lastUpdated: "2026-02-12 13:45:10",
                 blocks: [
                     {
                         type: "dsrTemplate1.faq.header",
                         enabled: true,
-                        title: "Häufig gestellte Fragen",
-                        subtitle: "Die Antworten auf Ihre Fragen",
-                        backgroundimage: 123
+                        kicker: "#",
+                        title: "FAQ",
+                        subtitle_1: "Häufig gestellte Fragen – Schnell und einfach erklärt",
+                        text: "Klicken Sie auf eine Karte, um die Erklärung zu sehen"
                     },
                     {
-                        type: "dsrTemplate1.faq.search",
+                        type: "dsrTemplate1.faq.search_filters",
                         enabled: true,
-                        placeholder: "Fragen durchsuchen...",
-                        title: "Finden Sie Antworten"
+                        placeholder: "Suche nach Thema, Stichwort...",
+                        filters: [
+                            { key: "all", label: "Alle" },
+                            { key: "accident-claim", label: "Unfallschaden" },
+                            { key: "insurance", label: "Versicherung" },
+                            { key: "expert-opinion", label: "Gutachten" },
+                            { key: "workshop", label: "Werkstatt" },
+                            { key: "legal", label: "Rechtliches" }
+                        ],
+                        activeFilter: "all"
                     },
                     {
                         type: "dsrTemplate1.faq.grid",
-                        enabled: true,
-                        title: "Fragen und Antworten",
-                        items: []
+                        enabled: false,
+                        itemsPerRow: 3,
+                        items: [
+                            {
+                                id: 1,
+                                filterKey: "accident-claim",
+                                title: "Was tun nach einem Unfall?",
+                                text: "Die wichtigsten Schritte direkt nach einem Verkehrsunfall",
+                                buttoncaption: "Mehr erfahren",
+                                buttonlink: "faq-details.html?id=after-accident",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 2,
+                                filterKey: "insurance",
+                                title: "Welche Versicherung zahlt?",
+                                text: "Zuständigkeiten und Leistungen der verschiedenen Versicherungen",
+                                buttoncaption: "Mehr erfahren",
+                                buttonlink: "faq-details.html?id=which-insurance",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 3,
+                                filterKey: "expert-opinion",
+                                title: "Brauche ich ein Gutachten?",
+                                text: "Wann eine Schadensbewertung durch einen Experten erforderlich ist",
+                                buttoncaption: "Mehr erfahren",
+                                buttonlink: "faq-details.html?id=expert-opinion",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 4,
+                                filterKey: "workshop",
+                                title: "Freie Werkstattwahl",
+                                text: "Ihre Rechte bei der Wahl einer Reparaturwerkstatt",
+                                buttoncaption: "Mehr erfahren",
+                                buttonlink: "faq-details.html?id=free-workshop-choice",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 5,
+                                filterKey: "accident-claim",
+                                title: "Unfallbericht richtig ausfüllen",
+                                text: "So dokumentieren Sie den Unfall korrekt",
+                                buttoncaption: "Mehr erfahren",
+                                buttonlink: "faq-details.html?id=accident-report",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 6,
+                                filterKey: "legal",
+                                title: "Wer übernimmt die Anwaltskosten?",
+                                text: "Kostenübernahme bei rechtlicher Unterstützung",
+                                buttoncaption: "Mehr erfahren",
+                                buttonlink: "faq-details.html?id=lawyer-costs",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 7,
+                                filterKey: "insurance",
+                                title: "Anspruch auf Mietwagen",
+                                text: "Wann haben Sie Anspruch auf ein Ersatzfahrzeug?",
+                                buttoncaption: "Mehr erfahren",
+                                buttonlink: "faq-details.html?id=rental-car",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 8,
+                                filterKey: "expert-opinion",
+                                title: "Gutachten oder Kostenvoranschlag?",
+                                text: "Die Unterschiede und wann welche Variante sinnvoll ist",
+                                buttoncaption: "Mehr erfahren",
+                                buttonlink: "faq-details.html?id=expert-vs-estimate",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 9,
+                                filterKey: "accident-claim",
+                                title: "Totalschaden – was nun?",
+                                text: "Ihre Möglichkeiten bei einem wirtschaftlichen Totalschaden",
+                                buttoncaption: "Mehr erfahren",
+                                buttonlink: "faq-details.html?id=total-loss",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 10,
+                                filterKey: "legal",
+                                title: "Schmerzensgeld",
+                                text: "Ansprüche bei Personenschäden",
+                                buttoncaption: "Mehr erfahren",
+                                buttonlink: "faq-details.html?id=pain-suffering",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 11,
+                                filterKey: "workshop",
+                                title: "Reparaturdauer",
+                                text: "Wie lange dauert eine Schadensreparatur?",
+                                buttoncaption: "Mehr erfahren",
+                                buttonlink: "faq-details.html?id=repair-duration",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 12,
+                                filterKey: "insurance",
+                                title: "Schadenfreiheitsklasse",
+                                text: "Auswirkungen eines Unfalls auf Ihre SF-Klasse",
+                                buttoncaption: "Mehr erfahren",
+                                buttonlink: "faq-details.html?id=no-claims-bonus",
+                                buttonnewtab: false,
+                                icon: "play"
+                            }
+                        ]
                     }
                 ]
             },
             {
-                url: "dsr24.de/en/faq",
+                url: "dsr24.de/en/faq.html",
                 lang: "EN",
                 lastUpdated: "2026-02-12 13:45:10",
                 blocks: [
                     {
                         type: "dsrTemplate1.faq.header",
                         enabled: true,
-                        title: "Frequently Asked Questions",
-                        subtitle: "Answers to your questions",
+                        kicker: "#",
+                        title: "FAQ",
+                        subtitle_1: "Frequently asked questions - quick and easy explained",
+                        text: "Click on a card to see the explanation",
                         backgroundimage: 123
                     },
                     {
-                        type: "dsrTemplate1.faq.search",
+                        type: "dsrTemplate1.faq.search_filters",
                         enabled: true,
-                        placeholder: "Search questions...",
-                        title: "Find Answers"
+                        placeholder: "Search by topic, keyword...",
+                        filters: [
+                            { key: "all", label: "All" },
+                            { key: "accident-claim", label: "Accident Claim" },
+                            { key: "insurance", label: "Insurance" },
+                            { key: "expert-opinion", label: "Expert Opinion" },
+                            { key: "workshop", label: "Workshop" },
+                            { key: "legal", label: "Legal" }
+                        ],
+                        activeFilter: "all"
                     },
                     {
                         type: "dsrTemplate1.faq.grid",
                         enabled: true,
-                        title: "Questions and Answers",
-                        items: []
+                        itemsPerRow: 3,
+                        items: [
+                            {
+                                id: 1,
+                                filterKey: "accident-claim",
+                                title: "What to do after an accident?",
+                                text: "The most important steps directly after a traffic accident",
+                                buttoncaption: "Learn more",
+                                buttonlink: "faq-details.html?id=after-accident",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 2,
+                                filterKey: "insurance",
+                                title: "Which insurance pays?",
+                                text: "Responsibility and benefits of different insurance companies",
+                                buttoncaption: "Learn more",
+                                buttonlink: "faq-details.html?id=which-insurance",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 3,
+                                filterKey: "expert-opinion",
+                                title: "Do I need an expert opinion?",
+                                text: "When a damage assessment is required",
+                                buttoncaption: "Learn more",
+                                buttonlink: "faq-details.html?id=expert-opinion",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 4,
+                                filterKey: "workshop",
+                                title: "Free choice of workshop",
+                                text: "Your rights when choosing a repair shop",
+                                buttoncaption: "Learn more",
+                                buttonlink: "faq-details.html?id=free-workshop-choice",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 5,
+                                filterKey: "accident-claim",
+                                title: "Correctly filling out accident report",
+                                text: "How to document the accident correctly",
+                                buttoncaption: "Learn more",
+                                buttonlink: "faq-details.html?id=accident-report",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 6,
+                                filterKey: "legal",
+                                title: "Who covers lawyer costs?",
+                                text: "Cost coverage for legal support",
+                                buttoncaption: "Learn more",
+                                buttonlink: "faq-details.html?id=lawyer-costs",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 7,
+                                filterKey: "insurance",
+                                title: "Rental car entitlement",
+                                text: "When are you entitled to a replacement vehicle?",
+                                buttoncaption: "Learn more",
+                                buttonlink: "faq-details.html?id=rental-car",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 8,
+                                filterKey: "expert-opinion",
+                                title: "Expert or cost estimate?",
+                                text: "The differences and when what is needed",
+                                buttoncaption: "Learn more",
+                                buttonlink: "faq-details.html?id=expert-vs-estimate",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 9,
+                                filterKey: "accident-claim",
+                                title: "Total loss - what now?",
+                                text: "Your options in case of economic total loss",
+                                buttoncaption: "Learn more",
+                                buttonlink: "faq-details.html?id=total-loss",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 10,
+                                filterKey: "legal",
+                                title: "Pain and suffering compensation",
+                                text: "Claims for personal injuries",
+                                buttoncaption: "Learn more",
+                                buttonlink: "faq-details.html?id=pain-suffering",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 11,
+                                filterKey: "workshop",
+                                title: "Repair duration",
+                                text: "How long does a damage repair take?",
+                                buttoncaption: "Learn more",
+                                buttonlink: "faq-details.html?id=repair-duration",
+                                buttonnewtab: false,
+                                icon: "play"
+                            },
+                            {
+                                id: 12,
+                                filterKey: "insurance",
+                                title: "No-claims bonus",
+                                text: "Impact of an accident on your SF class",
+                                buttoncaption: "Learn more",
+                                buttonlink: "faq-details.html?id=no-claims-bonus",
+                                buttonnewtab: false,
+                                icon: "play"
+                            }
+                        ]
                     }
                 ]
             }
@@ -1373,7 +2076,7 @@ window.pages = [
                 lang: "DE",
                 lastUpdated: "2026-02-12 13:45:10",
                 blocks: []
-                
+
             },
             {
                 url: "dsr24.de/en/news-details",
@@ -1457,73 +2160,226 @@ window.pages = [
     {
         id: 212,
         slug: "dsrklaert",
-        title: "DSRKLAERT",
+        title: "DSRKLÄRT",
         contents: [
             {
-                url: "dsr24.de/dsrklaert",
+                url: "dsr24.de/dsrexplains",
                 lang: "DE",
                 lastUpdated: "2026-02-12 13:45:10",
                 blocks: [
                     {
                         type: "dsrTemplate1.dsrklaert.header",
                         enabled: true,
-                        title: "DSR Klärt auf",
-                        subtitle: "Wissen und Informationen rund um Unfallschäden",
+                        kicker: "#",
+                        title: "dsrklärt",
+                        subtitle_1: "Wichtige Begriffe rund um Unfallschäden einfach erklärt",
+                        text: "Klicken Sie auf eine Karte, um die Erklärung zu sehen",
                         backgroundimage: 123
                     },
                     {
                         type: "dsrTemplate1.dsrklaert.grid",
                         enabled: true,
-                        title: "Aufklärungsartikel",
-                        items: []
+                        itemsPerRow: 3,
+                        items: [
+                            {
+                                id: 1,
+                                title: "Schadengutachten",
+                                hint: "Klicken zum Umdrehen",
+                                icon: "file",
+                                explanation: "Ein Schadengutachten ist eine detaillierte Bewertung der Unfallschäden an Ihrem Fahrzeug durch einen unabhängigen Kfz-Sachverständigen. Es dokumentiert Art und Umfang der Schäden sowie die Reparaturkosten",
+
+                            },
+                            {
+                                id: 2,
+                                title: "Nutzungsausfall",
+                                hint: "Klicken zum Umdrehen",
+                                icon: "car-crash",
+                                explanation: "Nutzungsausfall bezeichnet die Entschädigung für den Zeitraum, in dem Sie Ihr beschädigtes Fahrzeug nicht nutzen können. Diese wird unabhängig davon gezahlt, ob Sie tatsächlich ein Ersatzfahrzeug mieten.",
+
+                            },
+                            {
+                                id: 3,
+                                title: "Mietwagen",
+                                hint: "Klicken zum Umdrehen",
+                                icon: "car",
+                                explanation: "Nach einem unverschuldeten Unfall haben Sie Anspruch auf ein Ersatzfahrzeug. Die Kosten trägt die gegnerische Versicherung. Der Mietwagen sollte in Ausstattung und Klasse Ihrem beschädigten Fahrzeug entsprechen.",
+
+                            },
+                            {
+                                id: 4,
+                                title: "Restwert",
+                                hint: "Klicken zum Umdrehen",
+                                icon: "euro",
+                                explanation: "Der Restwert ist der Wert, den Ihr beschädigtes Fahrzeug noch hat. Bei einem wirtschaftlichen Totalschaden wird dieser vom Wiederbeschaffungswert abgezogen, um die Entschädigungssumme zu berechnen.",
+
+                            },
+                            {
+                                id: 5,
+                                title: "Merkantiler Minderwert",
+                                hint: "Klicken zum Umdrehen",
+                                icon: "chart",
+                                explanation: "Auch nach fachgerechter Reparatur verliert ein Unfallfahrzeug an Wert. Dieser Wertverlust wird als merkantiler Minderwert bezeichnet und kann von der gegnerischen Versicherung geltend gemacht werden.",
+
+                            },
+                            {
+                                id: 6,
+                                title: "Wiederbeschaffungswert",
+                                hint: "Klicken zum Umdrehen",
+                                icon: "calculator",
+                                explanation: "Der Wiederbeschaffungswert ist der Betrag, den Sie aufwenden müssten, um ein vergleichbares Fahrzeug gleichen Typs und Alters mit ähnlicher Laufleistung zu erwerben. Dies ist die Grundlage für die Entschädigung bei Totalschaden.",
+
+                            },
+                            {
+                                id: 7,
+                                title: "Totalschaden",
+                                hint: "Klicken zum Umdrehen",
+                                icon: "warning",
+                                explanation: "Von einem Totalschaden spricht man, wenn die Reparaturkosten den Wiederbeschaffungswert übersteigen. Es gibt den wirtschaftlichen und den technischen Totalschaden. Bei Ersterem ist eine Reparatur unwirtschaftlich, bei Letzterem technisch nicht mehr möglich.",
+
+                            },
+                            {
+                                id: 8,
+                                title: "Haftpflichtversicherung",
+                                hint: "Klicken zum Umdrehen",
+                                icon: "shield",
+                                explanation: "Die Kfz-Haftpflichtversicherung ist gesetzlich vorgeschrieben und deckt Schäden ab, die Sie anderen mit Ihrem Fahrzeug zufügen. Bei einem unverschuldeten Unfall zahlt die Haftpflicht des Unfallverursachers Ihre Schäden.",
+
+                            },
+                            {
+                                id: 9,
+                                title: "Reparaturkosten",
+                                hint: "Klicken zum Umdrehen",
+                                icon: "wrench",
+                                explanation: "Bei einem unverschuldeten Unfall übernimmt die gegnerische Versicherung die vollständigen Reparaturkosten. Sie haben freie Werkstattwahl und Anspruch auf Reparatur mit Originalteilen in einer Fachwerkstatt.",
+
+                            }
+                        ]
                     },
                     {
                         type: "dsrTemplate1.dsrklaert.calltoaction",
                         enabled: true,
-                        title: "Kontaktieren Sie uns",
-                        text: "Haben Sie Fragen? Wir helfen Ihnen gerne weiter.",
-                        buttoncaption: "Jetzt Kontakt aufnehmen",
+                        title: "Noch Fragen?",
+                        text: "Unser Team steht Ihnen gerne zur Verfügung und beantwortet alle Ihre Fragen rund um Unfallschäden.",
+                        buttoncaption: "Kontakt aufnehmen",
                         buttonlink: "/kontakt",
                         buttonnewtab: false
                     }
                 ]
             },
+
             {
-                url: "dsr24.de/en/dsrklaert",
+                url: "dsr24.de/en/dsrexplains",
                 lang: "EN",
                 lastUpdated: "2026-02-12 13:45:10",
                 blocks: [
                     {
                         type: "dsrTemplate1.dsrklaert.header",
                         enabled: true,
-                        title: "DSR Explains",
-                        subtitle: "Knowledge and information about accident damage",
+                        kicker: "#",
+                        title: "dsr explains",
+                        subtitle_1: "Important terms about accident claims explained simply",
+                        text: "Click a card to view the explanation",
                         backgroundimage: 123
                     },
                     {
                         type: "dsrTemplate1.dsrklaert.grid",
                         enabled: true,
-                        title: "Educational Articles",
-                        items: []
+                        itemsPerRow: 3,
+                        items: [
+                            {
+                                id: 1,
+                                title: "Damage Assessment Report",
+                                hint: "Click to flip",
+                                icon: "file",
+                                explanation:
+                                    "A damage assessment report is a detailed evaluation of accident damage to your vehicle prepared by an independent vehicle expert. It documents the type and extent of the damage as well as the estimated repair costs."
+                            },
+                            {
+                                id: 2,
+                                title: "Loss of Use Compensation",
+                                hint: "Click to flip",
+                                icon: "car-crash",
+                                explanation:
+                                    "Loss of use compensation is payment for the period during which you cannot use your damaged vehicle. It can be paid regardless of whether you actually rent a replacement car."
+                            },
+                            {
+                                id: 3,
+                                title: "Rental Car",
+                                hint: "Click to flip",
+                                icon: "car",
+                                explanation:
+                                    "After a non-fault accident, you are generally entitled to a replacement vehicle. The costs are usually covered by the at-fault party’s insurer. The rental car should be comparable in class and equipment to your damaged vehicle."
+                            },
+                            {
+                                id: 4,
+                                title: "Residual Value",
+                                hint: "Click to flip",
+                                icon: "euro",
+                                explanation:
+                                    "The residual value is what your damaged vehicle is still worth. In an economic total loss, it is deducted from the replacement value to calculate the compensation amount."
+                            },
+                            {
+                                id: 5,
+                                title: "Diminished Value",
+                                hint: "Click to flip",
+                                icon: "chart",
+                                explanation:
+                                    "Even after a professional repair, an accident vehicle often loses market value. This loss is called diminished value and can typically be claimed from the at-fault party’s insurer."
+                            },
+                            {
+                                id: 6,
+                                title: "Replacement Value",
+                                hint: "Click to flip",
+                                icon: "calculator",
+                                explanation:
+                                    "The replacement value is the amount you would need to buy a comparable vehicle of the same type and age with similar mileage and condition. It is the basis for compensation in total loss cases."
+                            },
+                            {
+                                id: 7,
+                                title: "Total Loss",
+                                hint: "Click to flip",
+                                icon: "warning",
+                                explanation:
+                                    "A total loss occurs when repair costs exceed the replacement value. There is an economic total loss and a technical total loss. In the first case, repairing is not economically reasonable; in the second, repair is technically no longer possible."
+                            },
+                            {
+                                id: 8,
+                                title: "Liability Insurance",
+                                hint: "Click to flip",
+                                icon: "shield",
+                                explanation:
+                                    "Motor liability insurance is legally required and covers damage you cause to others with your vehicle. In a non-fault accident, the at-fault driver’s liability insurer pays for your damages."
+                            },
+                            {
+                                id: 9,
+                                title: "Repair Costs",
+                                hint: "Click to flip",
+                                icon: "wrench",
+                                explanation:
+                                    "In a non-fault accident, the at-fault party’s insurer typically covers the full repair costs. You can usually choose the repair shop freely and may be entitled to repairs using original parts at a qualified workshop."
+                            }
+                        ]
                     },
                     {
                         type: "dsrTemplate1.dsrklaert.calltoaction",
                         enabled: true,
-                        title: "Contact Us",
-                        text: "Do you have questions? We are happy to help.",
-                        buttoncaption: "Contact Us Now",
+                        title: "Still have questions?",
+                        text: "Our team is happy to help and answer any questions you have about accident claims.",
+                        buttoncaption: "Contact us",
                         buttonlink: "/contact",
                         buttonnewtab: false
                     }
                 ]
-            }
+            },
         ]
     }
 ];
 
-/*=========================================
+/*====================================================================================================================================================================
+====================================================================================================================================================================
                     SERVICES
-==========================================*/
+====================================================================================================================================================================
+=====================================================================================================================================================================*/
 
 window.services = [
     {
@@ -1861,9 +2717,11 @@ window.services = [
 ];
 
 
-/*=========================================
+/*=============================================================================================================================================================================================================
+=============================================================================================================================================================================================================
                     jobs
-==========================================*/
+==============================================================================================================================================================================================================
+==============================================================================================================================================================================================================*/
 
 window.jobs = [
     {
@@ -2322,286 +3180,1064 @@ window.jobs = [
     }
 ];
 
-// NEWS DETAILS collection
+/*====================================================================================================================================================================
+====================================================================================================================================================================
+            news
+====================================================================================================================================================================
+==================================================================================================================================================================*/
+
+
 window.news = [
+    {
+        slug: "quick-guide-on-business-with-friends",
+        title: "Quick guide on business with friends.",
+        contents: [
+            {
+                url: "dsr24.de/news-details.html?id=1",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.news-details.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Schneller Leitfaden für Geschäfte mit Freunden.",
+                        meta: {
+                            date: "2024-06-01",
+                            author: "John Doe 1"
+                        }
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.back",
+                        enabled: true,
+                        label: "Zurück zu News",
+                        url: "news.html"
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.hero_card",
+                        enabled: true,
+                        title: "DSR24 News",
+                        backgroundimage: 0
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.body",
+                        enabled: true,
+                        intro:
+                            "Dies ist der Einleitungsabsatz des Artikels. Er sollte die wichtigsten Informationen zusammenfassen und sofort Aufmerksamkeit erzeugen.",
+                        paragraph1:
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+                        section: {
+                            title: "Untertitel Beispiel",
+                            text:
+                                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+                        },
+                        quote:
+                            "Dies ist ein hervorgehobenes Zitat aus dem Artikel, um wichtige Informationen zu betonen.",
+                        paragraph2:
+                            "Abschließender Abschnitt des Inhalts. Sie können weitere strukturierte Abschnitte, Bilder, Listen oder eingebettete Inhalte hinzufügen."
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.tags",
+                        enabled: true,
+                        label: "Tags:",
+                        items: ["Sicherheit", "Versicherung", "Update"]
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.sidebar",
+                        enabled: true,
+                        shareTitle: "DIESEN ARTIKEL TEILEN",
+                        share: {
+                            facebook: true,
+                            twitter: true,
+                            linkedin: true
+                        },
+                        latestTitle: "AKTUELLE NEWS",
+                        latest: [
+                            { title: "So bearbeitet man Versicherungsfälle effizient", date: "10. Feb. 2026", url: "news-details.html?id=handle-claims-efficiently" },
+                            { title: "Neuer Service-Ausbau angekündigt", date: "08. Feb. 2026", url: "news-details.html?id=service-expansion" },
+                            { title: "DSR24 erreicht neuen Meilenstein", date: "05. Feb. 2026", url: "news-details.html?id=new-milestone" }
+                        ]
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/news-details.html?id=quick-guide-on-business-with-friends",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.news-details.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Quick guide on business with friends.",
+                        meta: {
+                            date: "2024-06-01",
+                            author: "John Doe 1"
+                        }
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.back",
+                        enabled: true,
+                        label: "Back to News",
+                        url: "news.html"
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.hero_card",
+                        enabled: true,
+                        title: "DSR24 News",
+                        backgroundimage: 0
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.body",
+                        enabled: true,
+                        intro:
+                            "This is the article introduction paragraph. It should summarize the most important information and immediately capture attention.",
+                        paragraph1:
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+                        section: {
+                            title: "Subtitle Example",
+                            text:
+                                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+                        },
+                        quote:
+                            "This is a highlighted quote from the article to emphasize key information.",
+                        paragraph2:
+                            "Final section of the article content. You can continue adding structured sections, images, lists or embedded content."
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.tags",
+                        enabled: true,
+                        label: "Tags:",
+                        items: ["Security", "Insurance", "Update"]
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.sidebar",
+                        enabled: true,
+                        shareTitle: "SHARE THIS ARTICLE",
+                        share: {
+                            facebook: true,
+                            twitter: true,
+                            linkedin: true
+                        },
+                        latestTitle: "LATEST NEWS",
+                        latest: [
+                            { title: "How to handle insurance claims efficiently", date: "Feb 10, 2026", url: "news-details.html?id=handle-claims-efficiently" },
+                            { title: "New service expansion announced", date: "Feb 08, 2026", url: "news-details.html?id=service-expansion" },
+                            { title: "DSR24 reaches new milestone", date: "Feb 05, 2026", url: "news-details.html?id=new-milestone" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        slug: "news 2",
+        title: "News 2",
+        contents: [
+            {
+                url: "dsr24.de/news-details.html?id=2",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.news-details.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "News 2",
+                        meta: {
+                            date: "2024-06-01",
+                            author: "John Doe 1"
+                        }
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.back",
+                        enabled: true,
+                        label: "Zurück zu News",
+                        url: "news.html"
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.hero_card",
+                        enabled: true,
+                        title: "DSR24 News",
+                        backgroundimage: 0
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.body",
+                        enabled: true,
+                        intro:
+                            "Dies ist der Einleitungsabsatz des Artikels. Er sollte die wichtigsten Informationen zusammenfassen und sofort Aufmerksamkeit erzeugen.",
+                        paragraph1:
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+                        section: {
+                            title: "Untertitel Beispiel",
+                            text:
+                                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+                        },
+                        quote:
+                            "Dies ist ein hervorgehobenes Zitat aus dem Artikel, um wichtige Informationen zu betonen.",
+                        paragraph2:
+                            "Abschließender Abschnitt des Inhalts. Sie können weitere strukturierte Abschnitte, Bilder, Listen oder eingebettete Inhalte hinzufügen."
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.tags",
+                        enabled: true,
+                        label: "Tags:",
+                        items: ["Sicherheit", "Versicherung", "Update"]
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.sidebar",
+                        enabled: true,
+                        shareTitle: "DIESEN ARTIKEL TEILEN",
+                        share: {
+                            facebook: true,
+                            twitter: true,
+                            linkedin: true
+                        },
+                        latestTitle: "AKTUELLE NEWS",
+                        latest: [
+                            { title: "So bearbeitet man Versicherungsfälle effizient", date: "10. Feb. 2026", url: "news-details.html?id=handle-claims-efficiently" },
+                            { title: "Neuer Service-Ausbau angekündigt", date: "08. Feb. 2026", url: "news-details.html?id=service-expansion" },
+                            { title: "DSR24 erreicht neuen Meilenstein", date: "05. Feb. 2026", url: "news-details.html?id=new-milestone" }
+                        ]
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/news-details.html?id=quick-guide-on-business-with-friends",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.news-details.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Quick guide on business with friends.",
+                        meta: {
+                            date: "2024-06-01",
+                            author: "John Doe 1"
+                        }
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.back",
+                        enabled: true,
+                        label: "Back to News",
+                        url: "news.html"
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.hero_card",
+                        enabled: true,
+                        title: "DSR24 News",
+                        backgroundimage: 0
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.body",
+                        enabled: true,
+                        intro:
+                            "This is the article introduction paragraph. It should summarize the most important information and immediately capture attention.",
+                        paragraph1:
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+                        section: {
+                            title: "Subtitle Example",
+                            text:
+                                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+                        },
+                        quote:
+                            "This is a highlighted quote from the article to emphasize key information.",
+                        paragraph2:
+                            "Final section of the article content. You can continue adding structured sections, images, lists or embedded content."
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.tags",
+                        enabled: true,
+                        label: "Tags:",
+                        items: ["Security", "Insurance", "Update"]
+                    },
+                    {
+                        type: "dsrTemplate1.news-details.sidebar",
+                        enabled: true,
+                        shareTitle: "SHARE THIS ARTICLE",
+                        share: {
+                            facebook: true,
+                            twitter: true,
+                            linkedin: true
+                        },
+                        latestTitle: "LATEST NEWS",
+                        latest: [
+                            { title: "How to handle insurance claims efficiently", date: "Feb 10, 2026", url: "news-details.html?id=handle-claims-efficiently" },
+                            { title: "New service expansion announced", date: "Feb 08, 2026", url: "news-details.html?id=service-expansion" },
+                            { title: "DSR24 reaches new milestone", date: "Feb 05, 2026", url: "news-details.html?id=new-milestone" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+];
+
+
+/*====================================================================================================================================================================
+====================================================================================================================================================================
+REVIEWS
+====================================================================================================================================================================
+==================================================================================================================================================================*/
+
+
+window.reviews = [
+  /* =====================================================
+     1) MICHAEL SCHMIDT
+  ====================================================== */
   {
-    slug: "quick-guide-on-business-with-friends",
-    title: "Quick guide on business with friends.",
+    slug: "michael-schmidt",
     contents: [
       {
-        url: "dsr24.de/news-details.html?id=1",
+        url: "dsr24.de/use-case.html?id=2",
         lang: "DE",
         lastUpdated: "2026-02-12 13:45:10",
         blocks: [
+          /* TOP HEADER (hero area) */
           {
-            type: "dsrTemplate1.news-details.header",
+            type: "dsrTemplate1.usecase.hero",
             enabled: true,
             kicker: "#",
-            title: "Schneller Leitfaden für Geschäfte mit Freunden.",
-            meta: {
-              date: "2024-06-01",
-              author: "John Doe 1"
-            }
+            title: "Michael Schmidt",
+            meta: "45 Jahre, Ingenieur aus Berlin"
+          },
+
+          /* BACK BUTTON */
+          {
+            type: "dsrTemplate1.usecase.back",
+            enabled: true,
+            label: "Zurück zu Kundenstimmen",
+            url: "customer-reviews.html"
+          },
+
+          /* PROFILE CARD (left) */
+          {
+            type: "dsrTemplate1.usecase.profile",
+            enabled: true,
+            name: "Michael Schmidt",
+            meta: "45 Jahre, Ingenieur aus Berlin",
+            badges: ["Auffahrunfall", "Anwalt & Gutachter inkl."],
+            quote: "Schnell, professionell und ohne Stress. Ich kann DSR24 wirklich empfehlen!",
+            avatarImage: 301
+          },
+
+          /* MAIN HERO IMAGE (right, top) */
+          {
+            type: "dsrTemplate1.usecase.heroMedia",
+            enabled: true,
+            label: "Unfallsituation",
+            image: 401
+          },
+
+          /* OPTIONAL VIDEO (Michael has video in your screenshot) */
+          {
+            type: "dsrTemplate1.usecase.video",
+            enabled: true,
+            title: "",
+            videoUrl: "media/michael-schmidt.mp4",
+            posterImage: 402,
+            caption: "Das Video ansehen"
+          },
+
+          /* CONTENT SECTIONS */
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "car-crash",
+            title: "Die Situation",
+            text:
+              "Auf dem Weg zur Arbeit ereignete sich der Unfall: An einer roten Ampel wurde ich von hinten angefahren. Der Aufprall war heftig und mein Fahrzeug wurde stark beschädigt. Zum Glück wurde niemand verletzt, aber mein Auto hatte einen erheblichen Heckschaden."
           },
           {
-            type: "dsrTemplate1.news-details.back",
+            type: "dsrTemplate1.usecase.section",
             enabled: true,
-            label: "Zurück zu News",
-            url: "news.html"
+            icon: "warning",
+            title: "Die Herausforderung",
+            text:
+              "Die gegnerische Versicherung versuchte, mit einem niedrigen Angebot davonzukommen und wollte keinen unabhängigen Gutachter akzeptieren. Als technikaffiner Mensch wusste ich, dass der Schaden deutlich höher war als angeboten. Außerdem wollte ich nicht auf den Kosten sitzen bleiben."
           },
           {
-            type: "dsrTemplate1.news-details.hero_card",
+            type: "dsrTemplate1.usecase.section",
             enabled: true,
-            title: "DSR24 News",
-            backgroundimage: 0
+            icon: "handshake",
+            title: "Wie DSR24 geholfen hat",
+            text:
+              "DSR24 stellte mir nicht nur einen Gutachter, sondern auch einen spezialisierten Anwalt zur Seite. Das Team koordinierte alles perfekt:",
+            bullets: [
+              "Unabhängiges Gutachten mit detaillierter Schadensanalyse",
+              "Anwaltliche Vertretung gegenüber der Versicherung",
+              "Premium-Leihwagen während der Reparaturzeit",
+              "Organisation der Reparatur in einer Markenwerkstatt"
+            ]
           },
           {
-            type: "dsrTemplate1.news-details.body",
+            type: "dsrTemplate1.usecase.section",
             enabled: true,
-            intro:
-              "Dies ist der Einleitungsabsatz des Artikels. Er sollte die wichtigsten Informationen zusammenfassen und sofort Aufmerksamkeit erzeugen.",
-            paragraph1:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-            section: {
-              title: "Untertitel Beispiel",
-              text:
-                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
-            },
-            quote:
-              "Dies ist ein hervorgehobenes Zitat aus dem Artikel, um wichtige Informationen zu betonen.",
-            paragraph2:
-              "Abschließender Abschnitt des Inhalts. Sie können weitere strukturierte Abschnitte, Bilder, Listen oder eingebettete Inhalte hinzufügen."
+            icon: "trophy",
+            title: "Das Ergebnis",
+            text:
+              "Dank der professionellen Unterstützung erhielt ich die volle Entschädigung von über 4.200€. Die Reparatur wurde fachgerecht durchgeführt, und ich hatte während der gesamten Zeit ein gleichwertiges Ersatzfahrzeug. Der gesamte Prozess dauerte vier Wochen und verlief vollständig reibungslos."
           },
+
+          /* SERVICES USED + TIMELINE */
           {
-            type: "dsrTemplate1.news-details.tags",
+            type: "dsrTemplate1.usecase.summary",
             enabled: true,
-            label: "Tags:",
-            items: ["Sicherheit", "Versicherung", "Update"]
+            servicesTitle: "Genutzte Leistungen",
+            services: ["Anwalt", "Gutachter", "Leihwagen", "Werkstatt"],
+            timelineTitle: "Zeitverlauf",
+            timeline: [
+              { label: "Tag 1", text: "DSR24 kontaktiert, Fall dokumentiert" },
+              { label: "Tag 2-3", text: "Gutachter und Anwalt eingeschaltet" },
+              { label: "Tag 4", text: "Anwalt verhandelt mit Versicherung" },
+              { label: "Tag 10", text: "Volle Entschädigung und Reparatur abgeschlossen" }
+            ]
           },
+
+          /* CTA STRIP */
           {
-            type: "dsrTemplate1.news-details.sidebar",
+            type: "dsrTemplate1.usecase.cta",
             enabled: true,
-            shareTitle: "DIESEN ARTIKEL TEILEN",
-            share: {
-              facebook: true,
-              twitter: true,
-              linkedin: true
-            },
-            latestTitle: "AKTUELLE NEWS",
-            latest: [
-              { title: "So bearbeitet man Versicherungsfälle effizient", date: "10. Feb. 2026", url: "news-details.html?id=handle-claims-efficiently" },
-              { title: "Neuer Service-Ausbau angekündigt", date: "08. Feb. 2026", url: "news-details.html?id=service-expansion" },
-              { title: "DSR24 erreicht neuen Meilenstein", date: "05. Feb. 2026", url: "news-details.html?id=new-milestone" }
+            title: "Hatten Sie auch einen Unfall?",
+            subtitle: "Lassen Sie sich kostenfrei von DSR24 helfen – genau wie unsere zufriedenen Kunden!",
+            buttoncaption: "Schadenfall melden",
+            buttonlink: "report-damage.html",
+            buttonnewtab: false
+          },
+
+          /* MORE SUCCESS STORIES (cards to other use-cases) */
+          {
+            type: "dsrTemplate1.usecase.moreStories",
+            enabled: true,
+            title: "Weitere Erfolgsgeschichten",
+            items: [
+              {
+                slug: "jane-doe",
+                title: "Jane Doe",
+                quote: "„DSR24 hat mir geholfen, 2.500€ von der gegnerischen Versicherung zu erhalten!“",
+                image: 401,
+                buttoncaption: "Geschichte lesen",
+                buttonlink: "use-case.html?id=1",
+                buttonnewtab: false
+              },
+              {
+                slug: "sarah-mueller",
+                title: "Sarah Müller",
+                quote: "„DSR24 hat sich um alles gekümmert. Ich musste mich um nichts sorgen!“",
+                image: 401,
+                buttoncaption: "Geschichte lesen",
+                buttonlink: "use-case.html?id=3",
+                buttonnewtab: false
+              }
             ]
           }
         ]
       },
+
+      /* EN */
       {
-        url: "dsr24.de/en/news-details.html?id=quick-guide-on-business-with-friends",
+        url: "dsr24.de/en/use-case.html?id=2",
         lang: "EN",
         lastUpdated: "2026-02-12 13:45:10",
         blocks: [
           {
-            type: "dsrTemplate1.news-details.header",
+            type: "dsrTemplate1.usecase.hero",
             enabled: true,
             kicker: "#",
-            title: "Quick guide on business with friends.",
-            meta: {
-              date: "2024-06-01",
-              author: "John Doe 1"
-            }
+            title: "Michael Schmidt",
+            meta: "45 years old, engineer from Berlin"
           },
           {
-            type: "dsrTemplate1.news-details.back",
+            type: "dsrTemplate1.usecase.back",
             enabled: true,
-            label: "Back to News",
-            url: "news.html"
+            label: "Back to Customer Reviews",
+            url: "customer-reviews.html"
           },
           {
-            type: "dsrTemplate1.news-details.hero_card",
+            type: "dsrTemplate1.usecase.profile",
             enabled: true,
-            title: "DSR24 News",
-            backgroundimage: 0
+            name: "Michael Schmidt",
+            meta: "45 years old, engineer from Berlin",
+            badges: ["Rear-end collision", "Lawyer & expert included"],
+            quote: "Fast, professional, and stress-free. I truly recommend DSR24!",
+            avatarImage: 301
           },
           {
-            type: "dsrTemplate1.news-details.body",
+            type: "dsrTemplate1.usecase.heroMedia",
             enabled: true,
-            intro:
-              "This is the article introduction paragraph. It should summarize the most important information and immediately capture attention.",
-            paragraph1:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-            section: {
-              title: "Subtitle Example",
-              text:
-                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
-            },
-            quote:
-              "This is a highlighted quote from the article to emphasize key information.",
-            paragraph2:
-              "Final section of the article content. You can continue adding structured sections, images, lists or embedded content."
+            label: "Accident situation",
+            image: 401
           },
           {
-            type: "dsrTemplate1.news-details.tags",
+            type: "dsrTemplate1.usecase.video",
             enabled: true,
-            label: "Tags:",
-            items: ["Security", "Insurance", "Update"]
+            title: "",
+            videoUrl: "media/michael-schmidt.mp4",
+            posterImage: 402,
+            caption: "Watch the video"
           },
           {
-            type: "dsrTemplate1.news-details.sidebar",
+            type: "dsrTemplate1.usecase.section",
             enabled: true,
-            shareTitle: "SHARE THIS ARTICLE",
-            share: {
-              facebook: true,
-              twitter: true,
-              linkedin: true
-            },
-            latestTitle: "LATEST NEWS",
-            latest: [
-              { title: "How to handle insurance claims efficiently", date: "Feb 10, 2026", url: "news-details.html?id=handle-claims-efficiently" },
-              { title: "New service expansion announced", date: "Feb 08, 2026", url: "news-details.html?id=service-expansion" },
-              { title: "DSR24 reaches new milestone", date: "Feb 05, 2026", url: "news-details.html?id=new-milestone" }
+            icon: "car-crash",
+            title: "The Situation",
+            text:
+              "On my way to work I was hit from behind at a red light. The impact was strong and my car suffered significant rear damage."
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "warning",
+            title: "The Challenge",
+            text:
+              "The opposing insurer tried to settle with a low offer and didn’t want to accept an independent expert assessment."
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "handshake",
+            title: "How DSR24 Helped",
+            text:
+              "DSR24 provided an independent expert and a specialized lawyer and coordinated everything:",
+            bullets: [
+              "Independent expert report with detailed damage assessment",
+              "Legal representation against the insurance company",
+              "Replacement car during repair",
+              "Repair organization with a qualified partner workshop"
+            ]
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "trophy",
+            title: "The Result",
+            text:
+              "I received full compensation of over €4,200. The repair was completed professionally and the whole process was smooth."
+          },
+          {
+            type: "dsrTemplate1.usecase.summary",
+            enabled: true,
+            servicesTitle: "Services Used",
+            services: ["Lawyer", "Expert", "Replacement car", "Workshop"],
+            timelineTitle: "Timeline",
+            timeline: [
+              { label: "Day 1", text: "Contacted DSR24, case documented" },
+              { label: "Day 2–3", text: "Expert and lawyer assigned" },
+              { label: "Day 4", text: "Lawyer negotiated with insurer" },
+              { label: "Day 10", text: "Full compensation + repair completed" }
+            ]
+          },
+          {
+            type: "dsrTemplate1.usecase.cta",
+            enabled: true,
+            title: "Did you also have an accident?",
+            subtitle: "Get free support from DSR24 – just like our satisfied customers!",
+            buttoncaption: "Report Damage",
+            buttonlink: "report-damage.html",
+            buttonnewtab: false
+          },
+          {
+            type: "dsrTemplate1.usecase.moreStories",
+            enabled: true,
+            title: "More Success Stories",
+            items: [
+              {
+                slug: "jane-doe",
+                title: "Jane Doe",
+                quote: "“DSR24 helped me receive €2,500 from the opposing insurance company!”",
+                image: 401,
+                buttoncaption: "Read story",
+                buttonlink: "use-case.html?id=1",
+                buttonnewtab: false
+              },
+              {
+                slug: "sarah-mueller",
+                title: "Sarah Müller",
+                quote: "“DSR24 handled everything. I didn’t have to worry about anything!”",
+                image: 401,
+                buttoncaption: "Read story",
+                buttonlink: "use-case.html?id=3",
+                buttonnewtab: false
+              }
             ]
           }
         ]
       }
     ]
   },
+
+  /* =====================================================
+     2) SARAH MÜLLER
+  ====================================================== */
   {
-    slug: "news 2",
-    title: "News 2",
+    slug: "sarah-mueller",
     contents: [
       {
-        url: "dsr24.de/news-details.html?id=2",
+        url: "dsr24.de/use-case.html?id=3",
         lang: "DE",
         lastUpdated: "2026-02-12 13:45:10",
         blocks: [
           {
-            type: "dsrTemplate1.news-details.header",
+            type: "dsrTemplate1.usecase.hero",
             enabled: true,
             kicker: "#",
-            title: "News 2",
-            meta: {
-              date: "2024-06-01",
-              author: "John Doe 1"
-            }
+            title: "Sarah Müller",
+            meta: "28 Jahre, Lehrerin aus Hamburg"
           },
           {
-            type: "dsrTemplate1.news-details.back",
+            type: "dsrTemplate1.usecase.back",
             enabled: true,
-            label: "Zurück zu News",
-            url: "news.html"
+            label: "Zurück zu Kundenstimmen",
+            url: "customer-reviews.html"
           },
           {
-            type: "dsrTemplate1.news-details.hero_card",
+            type: "dsrTemplate1.usecase.profile",
             enabled: true,
-            title: "DSR24 News",
-            backgroundimage: 0
+            name: "Sarah Müller",
+            meta: "28 Jahre, Lehrerin aus Hamburg",
+            badges: ["Kreuzungsunfall", "Komplettservice"],
+            quote: "DSR24 hat sich um alles gekümmert. Ich musste mich um nichts sorgen!",
+            avatarImage: 302
           },
           {
-            type: "dsrTemplate1.news-details.body",
+            type: "dsrTemplate1.usecase.heroMedia",
             enabled: true,
-            intro:
-              "Dies ist der Einleitungsabsatz des Artikels. Er sollte die wichtigsten Informationen zusammenfassen und sofort Aufmerksamkeit erzeugen.",
-            paragraph1:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-            section: {
-              title: "Untertitel Beispiel",
-              text:
-                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
-            },
-            quote:
-              "Dies ist ein hervorgehobenes Zitat aus dem Artikel, um wichtige Informationen zu betonen.",
-            paragraph2:
-              "Abschließender Abschnitt des Inhalts. Sie können weitere strukturierte Abschnitte, Bilder, Listen oder eingebettete Inhalte hinzufügen."
+            label: "Unfallsituation",
+            image: 401
           },
           {
-            type: "dsrTemplate1.news-details.tags",
+            type: "dsrTemplate1.usecase.section",
             enabled: true,
-            label: "Tags:",
-            items: ["Sicherheit", "Versicherung", "Update"]
+            icon: "car-crash",
+            title: "Die Situation",
+            text:
+              "An einer unübersichtlichen Kreuzung missachtete ein anderer Fahrer meine Vorfahrt und kollidierte mit meiner Fahrerseite. Der Schreck war groß und ich war zunächst völlig überfordert."
           },
           {
-            type: "dsrTemplate1.news-details.sidebar",
+            type: "dsrTemplate1.usecase.section",
             enabled: true,
-            shareTitle: "DIESEN ARTIKEL TEILEN",
-            share: {
-              facebook: true,
-              twitter: true,
-              linkedin: true
-            },
-            latestTitle: "AKTUELLE NEWS",
-            latest: [
-              { title: "So bearbeitet man Versicherungsfälle effizient", date: "10. Feb. 2026", url: "news-details.html?id=handle-claims-efficiently" },
-              { title: "Neuer Service-Ausbau angekündigt", date: "08. Feb. 2026", url: "news-details.html?id=service-expansion" },
-              { title: "DSR24 erreicht neuen Meilenstein", date: "05. Feb. 2026", url: "news-details.html?id=new-milestone" }
+            icon: "warning",
+            title: "Die Herausforderung",
+            text:
+              "Als junge Lehrerin hatte ich weder Erfahrung noch Zeit für die komplexe Unfallabwicklung. Die vielen Ansprechpartner – Versicherung, Werkstatt, Gutachter – waren mir völlig fremd."
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "handshake",
+            title: "Wie DSR24 geholfen hat",
+            text:
+              "Eine Freundin empfahl mir DSR24. Vom ersten Kontakt an hatte ich einen persönlichen Ansprechpartner, der alles erklärte und koordinierte. DSR24 übernahm buchstäblich alles – ich musste nur mein Auto abgeben."
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "trophy",
+            title: "Das Ergebnis",
+            text:
+              "Nach drei Wochen war alles erledigt. Mein Auto wurde perfekt repariert, alle Kosten wurden übernommen und ich hatte nicht einen Cent Eigenanteil."
+          },
+          {
+            type: "dsrTemplate1.usecase.summary",
+            enabled: true,
+            servicesTitle: "Genutzte Leistungen",
+            services: ["Gutachter", "Leihwagen", "Werkstatt", "Persönlicher Betreuer"],
+            timelineTitle: "Zeitverlauf",
+            timeline: [
+              { label: "Tag 1", text: "Ausführliche Beratung und Fallaufnahme" },
+              { label: "Tag 2", text: "Gutachter, Werkstatt, Leihwagen organisiert" },
+              { label: "Tag 3–20", text: "Professionelle Instandsetzung" },
+              { label: "Tag 21", text: "Auto übergeben, alles kostenlos" }
+            ]
+          },
+          {
+            type: "dsrTemplate1.usecase.cta",
+            enabled: true,
+            title: "Hatten Sie auch einen Unfall?",
+            subtitle: "Lassen Sie sich kostenfrei von DSR24 helfen – genau wie unsere zufriedenen Kunden!",
+            buttoncaption: "Schadenfall melden",
+            buttonlink: "report-damage.html",
+            buttonnewtab: false
+          },
+          {
+            type: "dsrTemplate1.usecase.moreStories",
+            enabled: true,
+            title: "Weitere Erfolgsgeschichten",
+            items: [
+              {
+                slug: "jane-doe",
+                title: "Jane Doe",
+                quote: "„DSR24 hat mir geholfen, 2.500€ von der gegnerischen Versicherung zu erhalten!“",
+                image: 401,
+                buttoncaption: "Geschichte lesen",
+                buttonlink: "use-case.html?id=1",
+                buttonnewtab: false
+              },
+              {
+                slug: "michael-schmidt",
+                title: "Michael Schmidt",
+                quote: "„Schnell, professionell und ohne Stress. Ich kann DSR24 wirklich empfehlen!“",
+                image: 401,
+                buttoncaption: "Geschichte lesen",
+                buttonlink: "use-case.html?id=2",
+                buttonnewtab: false
+              }
             ]
           }
         ]
       },
+
+      /* EN */
       {
-        url: "dsr24.de/en/news-details.html?id=quick-guide-on-business-with-friends",
+        url: "dsr24.de/en/use-case.html?id=3",
         lang: "EN",
         lastUpdated: "2026-02-12 13:45:10",
         blocks: [
           {
-            type: "dsrTemplate1.news-details.header",
+            type: "dsrTemplate1.usecase.hero",
             enabled: true,
             kicker: "#",
-            title: "Quick guide on business with friends.",
-            meta: {
-              date: "2024-06-01",
-              author: "John Doe 1"
-            }
+            title: "Sarah Müller",
+            meta: "28 years old, teacher from Hamburg"
           },
           {
-            type: "dsrTemplate1.news-details.back",
+            type: "dsrTemplate1.usecase.back",
             enabled: true,
-            label: "Back to News",
-            url: "news.html"
+            label: "Back to Customer Reviews",
+            url: "customer-reviews.html"
           },
           {
-            type: "dsrTemplate1.news-details.hero_card",
+            type: "dsrTemplate1.usecase.profile",
             enabled: true,
-            title: "DSR24 News",
-            backgroundimage: 0
+            name: "Sarah Müller",
+            meta: "28 years old, teacher from Hamburg",
+            badges: ["Intersection accident", "Full service"],
+            quote: "DSR24 handled everything. I didn’t have to worry about anything!",
+            avatarImage: 302
           },
           {
-            type: "dsrTemplate1.news-details.body",
+            type: "dsrTemplate1.usecase.heroMedia",
             enabled: true,
-            intro:
-              "This is the article introduction paragraph. It should summarize the most important information and immediately capture attention.",
-            paragraph1:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-            section: {
-              title: "Subtitle Example",
-              text:
-                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
-            },
-            quote:
-              "This is a highlighted quote from the article to emphasize key information.",
-            paragraph2:
-              "Final section of the article content. You can continue adding structured sections, images, lists or embedded content."
+            label: "Accident situation",
+            image: 401
           },
           {
-            type: "dsrTemplate1.news-details.tags",
+            type: "dsrTemplate1.usecase.section",
             enabled: true,
-            label: "Tags:",
-            items: ["Security", "Insurance", "Update"]
+            icon: "car-crash",
+            title: "The Situation",
+            text:
+              "At a confusing intersection another driver ignored my right of way and hit the driver’s side of my car. I was shocked and felt overwhelmed."
           },
           {
-            type: "dsrTemplate1.news-details.sidebar",
+            type: "dsrTemplate1.usecase.section",
             enabled: true,
-            shareTitle: "SHARE THIS ARTICLE",
-            share: {
-              facebook: true,
-              twitter: true,
-              linkedin: true
-            },
-            latestTitle: "LATEST NEWS",
-            latest: [
-              { title: "How to handle insurance claims efficiently", date: "Feb 10, 2026", url: "news-details.html?id=handle-claims-efficiently" },
-              { title: "New service expansion announced", date: "Feb 08, 2026", url: "news-details.html?id=service-expansion" },
-              { title: "DSR24 reaches new milestone", date: "Feb 05, 2026", url: "news-details.html?id=new-milestone" }
+            icon: "warning",
+            title: "The Challenge",
+            text:
+              "I didn’t have the time or experience to deal with all parties involved — insurer, workshop, expert, paperwork."
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "handshake",
+            title: "How DSR24 Helped",
+            text:
+              "A friend recommended DSR24. From the first minute I had a personal advisor who explained everything and coordinated the entire process."
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "trophy",
+            title: "The Result",
+            text:
+              "After three weeks everything was resolved. My car was repaired perfectly, all costs were covered, and I didn’t pay anything out of pocket."
+          },
+          {
+            type: "dsrTemplate1.usecase.summary",
+            enabled: true,
+            servicesTitle: "Services Used",
+            services: ["Expert", "Replacement car", "Workshop", "Personal advisor"],
+            timelineTitle: "Timeline",
+            timeline: [
+              { label: "Day 1", text: "Consultation and case intake" },
+              { label: "Day 2", text: "Expert, workshop and replacement car arranged" },
+              { label: "Day 3–20", text: "Professional repair" },
+              { label: "Day 21", text: "Car returned, everything covered" }
+            ]
+          },
+          {
+            type: "dsrTemplate1.usecase.cta",
+            enabled: true,
+            title: "Did you also have an accident?",
+            subtitle: "Get free support from DSR24 – just like our satisfied customers!",
+            buttoncaption: "Report Damage",
+            buttonlink: "report-damage.html",
+            buttonnewtab: false
+          },
+          {
+            type: "dsrTemplate1.usecase.moreStories",
+            enabled: true,
+            title: "More Success Stories",
+            items: [
+              {
+                slug: "jane-doe",
+                title: "Jane Doe",
+                quote: "“DSR24 helped me receive €2,500 from the opposing insurance company!”",
+                image: 401,
+                buttoncaption: "Read story",
+                buttonlink: "use-case.html?id=1",
+                buttonnewtab: false
+              },
+              {
+                slug: "michael-schmidt",
+                title: "Michael Schmidt",
+                quote: "“Fast, professional, and stress-free. I truly recommend DSR24!”",
+                image: 401,
+                buttoncaption: "Read story",
+                buttonlink: "use-case.html?id=2",
+                buttonnewtab: false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  /* =====================================================
+     3) JANE DOE
+  ====================================================== */
+  {
+    slug: "jane-doe",
+    contents: [
+      {
+        url: "dsr24.de/use-case.html?id=1",
+        lang: "DE",
+        lastUpdated: "2026-02-12 13:45:10",
+        blocks: [
+          {
+            type: "dsrTemplate1.usecase.hero",
+            enabled: true,
+            kicker: "#",
+            title: "Jane Doe",
+            meta: "32 Jahre, Ärztin aus München"
+          },
+          {
+            type: "dsrTemplate1.usecase.back",
+            enabled: true,
+            label: "Zurück zu Kundenstimmen",
+            url: "customer-reviews.html"
+          },
+          {
+            type: "dsrTemplate1.usecase.profile",
+            enabled: true,
+            name: "Jane Doe",
+            meta: "32 Jahre, Ärztin aus München",
+            badges: ["Parkplatzunfall", "Vollständige Regulierung"],
+            quote: "DSR24 hat mir geholfen, 2.500€ von der gegnerischen Versicherung zu erhalten!",
+            avatarImage: 303
+          },
+          {
+            type: "dsrTemplate1.usecase.heroMedia",
+            enabled: true,
+            label: "Unfallsituation",
+            image: 401
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "car-crash",
+            title: "Die Situation",
+            text:
+              "Nach meiner Schicht im Krankenhaus wollte ich nach Hause fahren. Auf dem Parkplatz stellte ich fest, dass mein Auto beschädigt wurde. Ein anderes Fahrzeug hatte beim Rückwärtsfahren meine Beifahrerseite getroffen."
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "warning",
+            title: "Die Herausforderung",
+            text:
+              "Der Verursacher hinterließ zwar einen Zettel, aber ich wusste nicht, wie ich am besten vorgehen sollte. Die Versicherung reagierte zögerlich, und der Schaden war deutlich größer als zunächst angenommen."
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "handshake",
+            title: "Wie DSR24 geholfen hat",
+            text:
+              "DSR24 erklärte mir jeden Schritt, organisierte einen unabhängigen Gutachter und übernahm die Kommunikation mit der gegnerischen Versicherung. Auch die Reparatur wurde in einer Partnerwerkstatt koordiniert."
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "trophy",
+            title: "Das Ergebnis",
+            text:
+              "Nach wenigen Wochen war mein Fahrzeug repariert. Die gegnerische Versicherung übernahm die Kosten vollständig – insgesamt über 2.500€."
+          },
+          {
+            type: "dsrTemplate1.usecase.summary",
+            enabled: true,
+            servicesTitle: "Genutzte Leistungen",
+            services: ["Gutachter", "Werkstatt", "Kommunikation mit Versicherung"],
+            timelineTitle: "Zeitverlauf",
+            timeline: [
+              { label: "Tag 1", text: "Fallaufnahme und Beratung" },
+              { label: "Tag 2", text: "Gutachten organisiert" },
+              { label: "Tag 3–14", text: "Abwicklung mit Versicherung" },
+              { label: "Tag 15+", text: "Reparatur abgeschlossen" }
+            ]
+          },
+          {
+            type: "dsrTemplate1.usecase.cta",
+            enabled: true,
+            title: "Hatten Sie auch einen Unfall?",
+            subtitle: "Lassen Sie sich kostenfrei von DSR24 helfen – genau wie unsere zufriedenen Kunden!",
+            buttoncaption: "Schadenfall melden",
+            buttonlink: "report-damage.html",
+            buttonnewtab: false
+          },
+          {
+            type: "dsrTemplate1.usecase.moreStories",
+            enabled: true,
+            title: "Weitere Erfolgsgeschichten",
+            items: [
+              {
+                slug: "michael-schmidt",
+                title: "Michael Schmidt",
+                quote: "„Schnell, professionell und ohne Stress. Ich kann DSR24 wirklich empfehlen!“",
+                image: 401,
+                buttoncaption: "Geschichte lesen",
+                buttonlink: "use-case.html?id=2",
+                buttonnewtab: false
+              },
+              {
+                slug: "sarah-mueller",
+                title: "Sarah Müller",
+                quote: "„DSR24 hat sich um alles gekümmert. Ich musste mich um nichts sorgen!“",
+                image: 401,
+                buttoncaption: "Geschichte lesen",
+                buttonlink: "use-case.html?id=3",
+                buttonnewtab: false
+              }
+            ]
+          }
+        ]
+      },
+
+      /* EN */
+      {
+        url: "dsr24.de/en/use-case.html?id=1",
+        lang: "EN",
+        lastUpdated: "2026-02-12 13:45:10",
+        blocks: [
+          {
+            type: "dsrTemplate1.usecase.hero",
+            enabled: true,
+            kicker: "#",
+            title: "Jane Doe",
+            meta: "32 years old, doctor from Munich"
+          },
+          {
+            type: "dsrTemplate1.usecase.back",
+            enabled: true,
+            label: "Back to Customer Reviews",
+            url: "customer-reviews.html"
+          },
+          {
+            type: "dsrTemplate1.usecase.profile",
+            enabled: true,
+            name: "Jane Doe",
+            meta: "32 years old, doctor from Munich",
+            badges: ["Parking accident", "Full compensation"],
+            quote: "DSR24 helped me receive €2,500 from the opposing insurance company!",
+            avatarImage: 303
+          },
+          {
+            type: "dsrTemplate1.usecase.heroMedia",
+            enabled: true,
+            label: "Accident situation",
+            image: 401
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "car-crash",
+            title: "The Situation",
+            text:
+              "After my hospital shift I discovered my car had been damaged in the parking lot. Another vehicle hit the passenger side while reversing."
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "warning",
+            title: "The Challenge",
+            text:
+              "Although the driver left a note, I wasn’t sure how to proceed. The insurer reacted slowly and the damage was more serious than expected."
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "handshake",
+            title: "How DSR24 Helped",
+            text:
+              "DSR24 explained each step, arranged an independent expert, handled communication with the opposing insurer, and coordinated the repair."
+          },
+          {
+            type: "dsrTemplate1.usecase.section",
+            enabled: true,
+            icon: "trophy",
+            title: "The Result",
+            text:
+              "Within a few weeks my car was repaired and the opposing insurer covered the full costs — over €2,500."
+          },
+          {
+            type: "dsrTemplate1.usecase.summary",
+            enabled: true,
+            servicesTitle: "Services Used",
+            services: ["Expert", "Workshop", "Insurance communication"],
+            timelineTitle: "Timeline",
+            timeline: [
+              { label: "Day 1", text: "Case intake and consultation" },
+              { label: "Day 2", text: "Expert report arranged" },
+              { label: "Day 3–14", text: "Insurance handling" },
+              { label: "Day 15+", text: "Repair completed" }
+            ]
+          },
+          {
+            type: "dsrTemplate1.usecase.cta",
+            enabled: true,
+            title: "Did you also have an accident?",
+            subtitle: "Get free support from DSR24 – just like our satisfied customers!",
+            buttoncaption: "Report Damage",
+            buttonlink: "report-damage.html",
+            buttonnewtab: false
+          },
+          {
+            type: "dsrTemplate1.usecase.moreStories",
+            enabled: true,
+            title: "More Success Stories",
+            items: [
+              {
+                slug: "michael-schmidt",
+                title: "Michael Schmidt",
+                quote: "“Fast, professional, and stress-free. I truly recommend DSR24!”",
+                image: 401,
+                buttoncaption: "Read story",
+                buttonlink: "use-case.html?id=2",
+                buttonnewtab: false
+              },
+              {
+                slug: "sarah-müller",
+                title: "Sarah Müller",
+                quote: "“DSR24 handled everything. I didn’t have to worry about anything!”",
+                image: 401,
+                buttoncaption: "Read story",
+                buttonlink: "use-case.html?id=3",
+                buttonnewtab: false
+              }
             ]
           }
         ]
@@ -2609,5 +4245,4 @@ window.news = [
     ]
   }
 ];
-
 
