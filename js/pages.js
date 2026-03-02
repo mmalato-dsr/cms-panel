@@ -611,50 +611,125 @@ window.pages = [
         title: "About Us",
         contents:
             [
+
                 {
                     url: "dsr24.de/ueber-uns",
                     lang: "DE",
                     lastUpdated: "2026-02-12 13:45:10",
-                    blocks:
-                        [
-                            {
-                                type: "dsrTemplate1.about-us.header",
-                                enabled: true,
-                                title: "Über uns",
-                                subtitle: "Ein Blick auf unsere Geschichte",
-                                backgroundimage: 123
-                            },
-                            {
-                                type: "dsrTemplate1.about-us.content",
-                                enabled: true,
-                                title: "Wer wir sind",
-                                paragraph: "DSR24 ist seit über 35 Jahren Ihr zuverlässiger Partner bei Unfallschäden und Schadenregulierung.",
-                                image: 102
-                            }
-                        ]
+                    blocks: [
+                        {
+                            type: "dsrTemplate1.about-us.header",
+                            enabled: true,
+                            kicker: "#",
+                            title: "Über uns",
+                            subtitle_1: "Lerne mehr über DSR24",
+                            subtitle_2: "Ihr zuverlässiger Partner bei Unfallschäden",
+                            text: "Klicken Sie auf eine Karte, um die Erklärung zu sehen"
+                        },
+                        {
+                            type: "dsrTemplate1.about-us.text_image",
+                            enabled: true,
+                            subtitle: "WIR FÜR EUCH",
+                            title: "Lerne uns besser kennen",
+                            paragraph: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecatcupida tat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                            image: 102
+                        },
+                        {
+                            type: "dsrTemplate1.about-us.video",
+                            enabled: true,
+                            subtitle: "DSR24 VORSTELLUNGSVIDEO",
+                            title: "Unser Unternehmen im Überblick",
+                            poster: 0,
+                            videoId: 700
+                        },
+                        {
+                            type: "dsrTemplate1.about-us.process_section",
+                            enabled: true,
+                            subtitle: "ABRECHNUNGSPROZESS",
+                            title: "Ablauf der Schadenregulierung",
+                            items: [
+                                { title: "STEP 1", text: "Du meldest deinen Schaden bei uns und erhältst eine Bestätigungs-E-Mail." },
+                                { title: "STEP 2", text: "Wir prüfen deinen Fall und melden uns, wenn Informationen fehlen sollten. Solltest du einen Mietwagen brauchen, führen wir mit dir ein Informationsgespräch." },
+                                { title: "STEP 3", text: "Der Sachverständige meldet sich i. d. R. binnen 48 Std. bei dir, um dein Fahrzeug zu begutachten. Sollten wir aufgrund einer geringen Schadenhöhe nur einen Kostenvoranschlag einer Werkstatt benötigen, melden wir uns bei dir." },
+                                { title: "STEP 4", text: "Wir ermitteln die Versicherung des Unfallgegners und unsere Rechtsabteilung legitimiert sich ggü. dieser als dein Rechtsbeistand.", readMore: true },
+                                { title: "STEP 5", text: "Nach Vorliegen des Gutachtens beziffert unsere Rechtsabteilung deine Schadenersatzansprüche ggü. der gegnerischen Haftpflichtversicherung. Dies hat zwischen 4-8 Wochen Zeit für die Bearbeitung." },
+                                { title: "STEP 6", text: "Nach Ablauf der Zahlungsfrist erinnern wir die Versicherung. Evtl. benötigt die Versicherung noch Nachweise (Zeugen, Bilder/Videos oder die E-Akte (Herausgabe durch Behörden kann bis zu 8 Wochen dauern)), um die Haftung bestätigen zu können." },
+                                { title: "STEP 7", text: "Haftungsbestätigung der gegnerischen Versicherung und fiktive Zahlung der Schadenssumme oder Reparatur deines Fahrzeugs. Jede Abrechnung der gegnerischen Versicherung wird von uns geprüft (Quote, Kürzung o. Ä.) und Rücksprache mit dir gehalten." },
+                            ]
+                        }
+                    ]
                 },
                 {
                     url: "dsr24.de/en/about-us",
                     lang: "EN",
                     lastUpdated: "2026-02-12 13:45:10",
-                    blocks:
-                        [
-                            {
-                                type: "dsrTemplate1.about-us.header",
-                                enabled: true,
-                                title: "Über uns",
-                                subtitle: "Ein Blick auf unsere Geschichte",
-                                backgroundimage: 123
-                            },
-                            {
-                                type: "dsrTemplate1.about-us.content",
-                                enabled: true,
-                                title: "Wer wir sind",
-                                paragraph: "DSR24 ist seit über 35 Jahren Ihr zuverlässiger Partner bei Unfallschäden und Schadenregulierung.",
-                                image: 102
-                            }
-                        ]
+                    blocks: [
+                        {
+                            type: "dsrTemplate1.about-us.header",
+                            enabled: true,
+                            kicker: "#",
+                            title: "About us",
+                            subtitle_1: "Learn more about DSR24",
+                            subtitle_2: "Your reliable partner for accident claims",
+                            text: "Click on a card to view the explanation"
+                        },
+                        {
+                            type: "dsrTemplate1.about-us.text_image",
+                            enabled: true,
+                            subtitle: "WE’RE HERE FOR YOU",
+                            title: "Get to know us better",
+                            paragraph:
+                                "DSR24 has been a trusted partner in accident damage and claims management for over 35 years. We support you from the first report to the final settlement—clear, fast, and always with your best interest in mind.",
+                            image: 102
+                        },
+                        {
+                            type: "dsrTemplate1.about-us.video",
+                            enabled: true,
+                            subtitle: "DSR24 INTRODUCTION VIDEO",
+                            title: "Our company at a glance",
+                            poster: 0,
+                            videoId: 700
+                        },
+                        {
+                            type: "dsrTemplate1.about-us.process_section",
+                            enabled: true,
+                            subtitle: "SETTLEMENT PROCESS",
+                            title: "How claims settlement works",
+                            items: [
+                                {
+                                    title: "STEP 1",
+                                    text: "You report your claim to us and receive a confirmation email."
+                                },
+                                {
+                                    title: "STEP 2",
+                                    text: "We review your case and contact you if any information is missing. If you need a rental car, we’ll discuss the next steps with you."
+                                },
+                                {
+                                    title: "STEP 3",
+                                    text: "An independent assessor usually contacts you within 48 hours to inspect your vehicle. If the damage is minor and we only need an estimate from a workshop, we will let you know."
+                                },
+                                {
+                                    title: "STEP 4",
+                                    text: "We identify the other party’s insurer and our legal department registers as your legal representative.",
+                                    readMore: true
+                                },
+                                {
+                                    title: "STEP 5",
+                                    text: "Once the assessment is available, our legal team calculates your compensation claims against the opposing liability insurer. Processing typically takes 4–8 weeks."
+                                },
+                                {
+                                    title: "STEP 6",
+                                    text: "After the payment deadline, we send a reminder to the insurer. Additional proof may be required (witnesses, photos/videos, or the official case file—requests to authorities can take up to 8 weeks) to confirm liability."
+                                },
+                                {
+                                    title: "STEP 7",
+                                    text: "Once liability is confirmed, you receive payment of the assessed damage amount (settlement) or the repair costs are covered. We review every insurer statement (e.g., liability split, reductions) and coordinate with you."
+                                }
+                            ]
+                        }
+                    ]
                 }
+
             ]
     },
 
@@ -832,56 +907,197 @@ window.pages = [
         title: "Jobs",
         contents: [
             {
-                url: "dsr24.de/stellenangebote",
+                url: "dsr24.de/arbeitsplaetze.html",
                 lang: "DE",
                 lastUpdated: "2026-02-12 13:45:10",
                 blocks: [
                     {
-                        type: "dsrTemplate1.jobs.header",
+                        type: "dsrTemplate1.arbeitsplaetze.header",
                         enabled: true,
-                        title: "Stellenangebote",
-                        subtitle: "Werden Sie Teil unseres Teams",
-                        backgroundimage: 123
+                        kicker: "#",
+                        title: "Jobs",
+                        subtitle: "Deine Karriere bei DSR24 beginnt hier."
                     },
                     {
-                        type: "dsrTemplate1.jobs.content",
+                        type: "dsrTemplate1.arbeitsplaetze.text_image",
                         enabled: true,
-                        title: "Karriere bei DSR24",
-                        paragraph: "Wir suchen motivierte und engagierte Mitarbeiter, die unser Team verstärken möchten.",
+                        subtitle: "JOB TITLE",
+                        title: "Arbeit dei DSR24",
+                        paragraph:
+                            "DSR24 steht für verlässliche Prozesse, starke Teams und echte Verantwortung. Bei uns arbeitest du an Lösungen, die Menschen nach einem Unfall wirklich weiterhelfen.\n\nOb Technik, Operations, Legal oder Marketing: Wir suchen motivierte Menschen, die mitdenken und gemeinsam wachsen wollen.",
                         image: 102
                     },
                     {
-                        type: "dsrTemplate1.jobs.grid",
+                        type: "dsrTemplate1.arbeitsplaetze.grid",
                         enabled: true,
-                        title: "Offene Positionen",
-                        items: []
+                        subtitle: "OFFENE STELLEN",
+                        title: "Wir stellen ein",
+                        items: [
+                            {
+                                id: 1,
+                                title: "Web Designer",
+                                company: "DSR24",
+                                location: "Germany",
+                                badge: "Full time",
+                                badgeType: "success", // optional for UI
+                                buttoncaption: "Hier bewerben",
+                                buttonlink: "/job-details.html?id=web-designer",
+                                buttonnewtab: true
+                            },
+                            {
+                                id: 2,
+                                title: "Front-end Developer",
+                                company: "DSR24",
+                                location: "Germany",
+                                badge: "Remote",
+                                badgeType: "primary",
+                                buttoncaption: "Hier bewerben",
+                                buttonnewtab: true,
+                                buttonlink: "/jobs-details.html?id=front-end-developer"
+
+                            },
+                            {
+                                id: 3,
+                                title: "Back-end Developer",
+                                company: "DSR24",
+                                location: "Germany",
+                                badge: "WFH",
+                                badgeType: "info",
+                                buttoncaption: "Hier bewerben",
+                                buttonnewtab: true,
+                                buttonlink: "/jobs-details.html?id=back-end-developer"
+                            },
+                            {
+                                id: 4,
+                                title: "Web Developer",
+                                company: "DSR24",
+                                location: "Germany",
+                                badge: "Full time",
+                                badgeType: "success",
+                                buttoncaption: "Hier bewerben",
+                                buttonnewtab: true,
+                                buttonlink: "/jobs-details.html?id=web-developer"
+                            },
+                            {
+                                id: 5,
+                                title: "Marketing Trainee",
+                                company: "DSR24",
+                                location: "Germany",
+                                badge: "Contract",
+                                badgeType: "warning",
+                                buttoncaption: "Hier bewerben",
+                                buttonnewtab: true,
+                                buttonlink: "/jobs-details.html?id=marketing-trainee"
+                            },
+                            {
+                                id: 6,
+                                title: "Analyst",
+                                company: "DSR24",
+                                location: "Germany",
+                                badge: "Contract",
+                                badgeType: "warning",
+                                buttoncaption: "Hier bewerben",
+                                buttonnewtab: true,
+                                buttonlink: "/jobs-details.html?id=analyst"
+                            }
+                        ]
                     }
                 ]
             },
             {
-                url: "dsr24.de/en/jobs",
+                url: "dsr24.de/en/jobs.html",
                 lang: "EN",
                 lastUpdated: "2026-02-12 13:45:10",
                 blocks: [
                     {
                         type: "dsrTemplate1.jobs.header",
                         enabled: true,
-                        title: "Job Openings",
-                        subtitle: "Become part of our team",
-                        backgroundimage: 123
+                        kicker: "#",
+                        title: "Jobs",
+                        subtitle: "Your career at DSR24 starts here.",
                     },
                     {
-                        type: "dsrTemplate1.jobs.content",
+                        type: "dsrTemplate1.jobs.text_image",
                         enabled: true,
-                        title: "Careers at DSR24",
-                        paragraph: "We are looking for motivated and dedicated employees to strengthen our team.",
+                        subtitle: "JOB TITLE",
+                        title: "Working at DSR24",
+                        paragraph:
+                            "DSR24 stands for reliable processes, strong teams, and real ownership. You’ll work on solutions that genuinely help people after an accident.\n\nFrom tech and operations to legal and marketing: we’re looking for motivated people who take initiative and want to grow together.",
                         image: 102
                     },
                     {
                         type: "dsrTemplate1.jobs.grid",
                         enabled: true,
-                        title: "Open Positions",
-                        items: []
+                        subtitle: "JOBS AVAILABLE",
+                        title: "We are hiring",
+                        items: [
+                            {
+                                id: 1,
+                                title: "Web Designer",
+                                company: "DSR24",
+                                location: "Germany",
+                                badge: "Full time",
+                                badgeType: "success",
+                                buttoncaption: "Apply here",
+                                buttonnewtab: true,
+                                buttonlink: "/jobs-details.html?id=web-designer"
+                            },
+                            {
+                                id: 2,
+                                title: "Front-end Developer",
+                                company: "DSR24",
+                                location: "Germany",
+                                badge: "Remote",
+                                badgeType: "primary",
+                                buttoncaption: "Apply here",
+                                buttonnewtab: true,
+                                buttonlink: "/jobs-details.html?id=front-end-developer"
+                            },
+                            {
+                                id: 3,
+                                title: "Back-end Developer",
+                                company: "DSR24",
+                                location: "Germany",
+                                badge: "WFH",
+                                badgeType: "info",
+                                buttoncaption: "Apply here",
+                                buttonnewtab: true,
+                                buttonlink: "/jobs-details.html?id=back-end-developer"
+                            },
+                            {
+                                id: 4,
+                                title: "Web Developer",
+                                company: "DSR24",
+                                location: "Germany",
+                                badge: "Full time",
+                                badgeType: "success",
+                                buttoncaption: "Apply here",
+                                buttonnewtab: true,
+                                buttonlink: "/jobs-details.html?id=web-developer"
+                            },
+                            {
+                                id: 5,
+                                title: "Marketing Trainee",
+                                company: "DSR24",
+                                location: "Germany",
+                                badge: "Contract",
+                                badgeType: "warning",
+                                buttoncaption: "Apply here",
+                                buttonnewtab: true,
+                                buttonlink: "/jobs-details.html?id=marketing-trainee"
+                            },
+                            {
+                                id: 6,
+                                title: "Analyst",
+                                company: "DSR24",
+                                location: "Germany",
+                                badge: "Contract",
+                                badgeType: "warning",
+                                buttoncaption: "Apply here",
+                                buttonnewtab: true,
+                                buttonlink: "/jobs-details.html?id=analyst"
+                            }
+                        ]
                     }
                 ]
             }
@@ -898,20 +1114,6 @@ window.pages = [
                 lang: "DE",
                 lastUpdated: "2026-02-12 13:45:10",
                 blocks: [
-                    {
-                        type: "dsrTemplate1.job-details.header",
-                        enabled: true,
-                        title: "Stellendetails",
-                        subtitle: "Jobdetails und Anforderungen",
-                        backgroundimage: 123
-                    },
-                    {
-                        type: "dsrTemplate1.job-details.content",
-                        enabled: true,
-                        title: "Stellen Details",
-                        paragraph: "Detaillierte Informationen zur Position, zu den Anforderungen und zum Unternehmen.",
-                        image: 102
-                    }
                 ]
             },
             {
@@ -919,20 +1121,6 @@ window.pages = [
                 lang: "EN",
                 lastUpdated: "2026-02-12 13:45:10",
                 blocks: [
-                    {
-                        type: "dsrTemplate1.job-details.header",
-                        enabled: true,
-                        title: "Job Details",
-                        subtitle: "Position details and requirements",
-                        backgroundimage: 123
-                    },
-                    {
-                        type: "dsrTemplate1.job-details.content",
-                        enabled: true,
-                        title: "Position Details",
-                        paragraph: "Detailed information about the position, requirements, and the company.",
-                        image: 102
-                    }
                 ]
             }
         ]
@@ -945,42 +1133,230 @@ window.pages = [
         title: "News",
         contents: [
             {
-                url: "dsr24.de/nachrichten",
+                url: "dsr24.de/news.html",
                 lang: "DE",
                 lastUpdated: "2026-02-12 13:45:10",
                 blocks: [
                     {
                         type: "dsrTemplate1.news.header",
                         enabled: true,
+                        kicker: "#",
                         title: "Nachrichten",
-                        subtitle: "Die neuesten Meldungen von DSR24",
+                        subtitle: "Aktuelle Tipps, Neuigkeiten und Ratgeber rund um Unfallschäden und deren Abwicklung.",
                         backgroundimage: 123
+                    },
+                    {
+                        type: "dsrTemplate1.news.back",
+                        enabled: true,
+                        label: "Zurück",
+                        url: "index.html"
                     },
                     {
                         type: "dsrTemplate1.news.grid",
                         enabled: true,
-                        title: "Neueste Nachrichten",
-                        items: []
+                        itemsPerPage: 6,
+                        showPagination: true,
+                        items: [
+                            {
+                                id: 1,
+                                date: "19. Okt. 2020",
+                                category: "Marketing",
+                                title: "Schneller Leitfaden für Geschäfte mit Freunden.",
+                                excerpt:
+                                    "Es gibt mittlerweile eine Vielzahl an Blindtexten. Diese werden häufig verwendet, wenn ein Text benötigt wird, um einen Bereich zu füllen.",
+                                likes: 33,
+                                author: "Lisa Marvel",
+                                authorAvatar: 0,
+                                image: 0,
+                                url: "news-details.html?id=schneller-leitfaden-1"
+                            },
+                            {
+                                id: 2,
+                                date: "19. Okt. 2020",
+                                category: "Marketing",
+                                title: "Tipps zur erfolgreichen Zusammenarbeit.",
+                                excerpt:
+                                    "Moderne Geschäftsbeziehungen erfordern klare Kommunikation und gegenseitiges Vertrauen. Hier erfahren Sie, worauf es ankommt.",
+                                likes: 28,
+                                author: "Lisa Marvel",
+                                authorAvatar: 0,
+                                image: 0,
+                                url: "news-details.html?id=zusammenarbeit-tipps"
+                            },
+                            {
+                                id: 3,
+                                date: "19. Okt. 2020",
+                                category: "Ratgeber",
+                                title: "Was tun nach einem Verkehrsunfall?",
+                                excerpt:
+                                    "Nach einem Unfall ist es wichtig, ruhig zu bleiben und die richtigen Schritte einzuleiten. Dieser Leitfaden hilft Ihnen dabei.",
+                                likes: 45,
+                                author: "Max Mustermann",
+                                authorAvatar: 0,
+                                image: 0,
+                                url: "news-details.html?id=verkehrsunfall-ratgeber"
+                            },
+                            {
+                                id: 4,
+                                date: "19. Okt. 2020",
+                                category: "Recht",
+                                title: "Ihre Rechte bei einem Haftpflichtschaden.",
+                                excerpt:
+                                    "Erfahren Sie, welche Ansprüche Ihnen zustehen und wie DSR24 Sie bei der Durchsetzung unterstützt.",
+                                likes: 37,
+                                author: "Anna Schmidt",
+                                authorAvatar: 0,
+                                image: 0,
+                                url: "news-details.html?id=rechte-haftpflicht"
+                            },
+                            {
+                                id: 5,
+                                date: "19. Okt. 2020",
+                                category: "Technik",
+                                title: "Digitale Schadenmeldung leicht gemacht.",
+                                excerpt:
+                                    "Mit unserer digitalen Lösung melden Sie Schäden schnell und unkompliziert – jederzeit und überall.",
+                                likes: 22,
+                                author: "Max Mustermann",
+                                authorAvatar: 0,
+                                image: 0,
+                                url: "news-details.html?id=digitale-schadenmeldung"
+                            },
+                            {
+                                id: 6,
+                                date: "19. Okt. 2020",
+                                category: "Unternehmen",
+                                title: "DSR24 stellt neue Services vor.",
+                                excerpt:
+                                    "Wir erweitern unser Leistungsportfolio, um unseren Kunden noch effizientere Lösungen anzubieten.",
+                                likes: 19,
+                                author: "Anna Schmidt",
+                                authorAvatar: 0,
+                                image: 0,
+                                url: "news-details.html?id=neue-services"
+                            }
+                        ]
+                    },
+                    {
+                        type: "dsrTemplate1.news.pagination",
+                        enabled: true,
+                        currentPage: 1,
+                        totalPages: 3,
+                        style: "numbers"
                     }
                 ]
             },
             {
-                url: "dsr24.de/en/news",
+                url: "dsr24.de/en/news.html",
                 lang: "EN",
                 lastUpdated: "2026-02-12 13:45:10",
                 blocks: [
                     {
                         type: "dsrTemplate1.news.header",
                         enabled: true,
+                        kicker: "#",
                         title: "News",
-                        subtitle: "The latest updates from DSR24",
+                        subtitle: "Latest tips, updates and guides about accident claims and how they’re handled.",
                         backgroundimage: 123
+                    },
+                    {
+                        type: "dsrTemplate1.news.back",
+                        enabled: true,
+                        label: "Back",
+                        url: "index.html"
                     },
                     {
                         type: "dsrTemplate1.news.grid",
                         enabled: true,
-                        title: "Latest News",
-                        items: []
+                        itemsPerPage: 6,
+                        showPagination: true,
+                        items: [
+                            {
+                                id: 1,
+                                date: "19th Oct, 2020",
+                                category: "Marketing",
+                                title: "Quick guide on business with friends.",
+                                excerpt:
+                                    "There is now an abundance of readable dummy texts. These are usually used when a text is required purely to fill a space.",
+                                likes: 33,
+                                author: "Lisa Marvel",
+                                authorAvatar: 0,
+                                image: 0,
+                                url: "news-details.html?id=quick-guide-1"
+                            },
+                            {
+                                id: 2,
+                                date: "19th Oct, 2020",
+                                category: "Marketing",
+                                title: "Quick guide on business with friends.",
+                                excerpt:
+                                    "There is now an abundance of readable dummy texts. These are usually used when a text is required purely to fill a space.",
+                                likes: 33,
+                                author: "Lisa Marvel",
+                                authorAvatar: 0,
+                                image: 0,
+                                url: "news-details.html?id=quick-guide-2"
+                            },
+                            {
+                                id: 3,
+                                date: "19th Oct, 2020",
+                                category: "Marketing",
+                                title: "Quick guide on business with friends.",
+                                excerpt:
+                                    "There is now an abundance of readable dummy texts. These are usually used when a text is required purely to fill a space.",
+                                likes: 33,
+                                author: "Lisa Marvel",
+                                authorAvatar: 0,
+                                image: 0,
+                                url: "news-details.html?id=quick-guide-3"
+                            },
+                            {
+                                id: 4,
+                                date: "19th Oct, 2020",
+                                category: "Marketing",
+                                title: "Quick guide on business with friends.",
+                                excerpt:
+                                    "There is now an abundance of readable dummy texts. These are usually used when a text is required purely to fill a space.",
+                                likes: 33,
+                                author: "Lisa Marvel",
+                                authorAvatar: 0,
+                                image: 0,
+                                url: "news-details.html?id=quick-guide-4"
+                            },
+                            {
+                                id: 5,
+                                date: "19th Oct, 2020",
+                                category: "Marketing",
+                                title: "Quick guide on business with friends.",
+                                excerpt:
+                                    "There is now an abundance of readable dummy texts. These are usually used when a text is required purely to fill a space.",
+                                likes: 33,
+                                author: "Lisa Marvel",
+                                authorAvatar: 0,
+                                image: 0,
+                                url: "news-details.html?id=quick-guide-5"
+                            },
+                            {
+                                id: 6,
+                                date: "19th Oct, 2020",
+                                category: "Marketing",
+                                title: "Quick guide on business with friends.",
+                                excerpt:
+                                    "There is now an abundance of readable dummy texts. These are usually used when a text is required purely to fill a space.",
+                                likes: 33,
+                                author: "Lisa Marvel",
+                                authorAvatar: 0,
+                                image: 0,
+                                url: "news-details.html?id=quick-guide-6"
+                            }
+                        ]
+                    },
+                    {
+                        type: "dsrTemplate1.news.pagination",
+                        enabled: true,
+                        currentPage: 1,
+                        totalPages: 3,
+                        style: "numbers"
                     }
                 ]
             }
@@ -996,43 +1372,14 @@ window.pages = [
                 url: "dsr24.de/nachrichten-details",
                 lang: "DE",
                 lastUpdated: "2026-02-12 13:45:10",
-                blocks: [
-                    {
-                        type: "dsrTemplate1.news-details.header",
-                        enabled: true,
-                        title: "Nachrichtendetails",
-                        subtitle: "Aktuelle Nachrichten von DSR24",
-                        backgroundimage: 123
-                    },
-                    {
-                        type: "dsrTemplate1.news-details.content",
-                        enabled: true,
-                        title: "Nachrichteninhalt",
-                        paragraph: "Vollständiger Inhalt der Nachricht mit allen wichtigen Details.",
-                        image: 102
-                    }
-                ]
+                blocks: []
+                
             },
             {
                 url: "dsr24.de/en/news-details",
                 lang: "EN",
                 lastUpdated: "2026-02-12 13:45:10",
-                blocks: [
-                    {
-                        type: "dsrTemplate1.news-details.header",
-                        enabled: true,
-                        title: "News Details",
-                        subtitle: "Current news from DSR24",
-                        backgroundimage: 123
-                    },
-                    {
-                        type: "dsrTemplate1.news-details.content",
-                        enabled: true,
-                        title: "News Content",
-                        paragraph: "Full news content with all important details.",
-                        image: 102
-                    }
-                ]
+                blocks: []
             }
         ]
     },
@@ -1046,43 +1393,13 @@ window.pages = [
                 url: "dsr24.de/dienstleistungen",
                 lang: "DE",
                 lastUpdated: "2026-02-12 13:45:10",
-                blocks: [
-                    {
-                        type: "dsrTemplate1.services.header",
-                        enabled: true,
-                        title: "Unsere Dienstleistungen",
-                        subtitle: "Maßgeschneiderte Lösungen für Ihre Bedürfnisse",
-                        backgroundimage: 123
-                    },
-                    {
-                        type: "dsrTemplate1.services.content",
-                        enabled: true,
-                        title: "Service-Übersicht",
-                        paragraph: "DSR24 bietet umfassende Dienstleistungen für alle Stakeholder in der Unfallschadenregulierung.",
-                        image: 102
-                    }
-                ]
+                blocks: []
             },
             {
                 url: "dsr24.de/en/services",
                 lang: "EN",
                 lastUpdated: "2026-02-12 13:45:10",
-                blocks: [
-                    {
-                        type: "dsrTemplate1.services.header",
-                        enabled: true,
-                        title: "Our Services",
-                        subtitle: "Tailored solutions for your needs",
-                        backgroundimage: 123
-                    },
-                    {
-                        type: "dsrTemplate1.services.content",
-                        enabled: true,
-                        title: "Service Overview",
-                        paragraph: "DSR24 offers comprehensive services for all stakeholders involved in accident claims management.",
-                        image: 102
-                    }
-                ]
+                blocks: []
             }
         ]
     },
@@ -1204,10 +1521,1093 @@ window.pages = [
     }
 ];
 
+/*=========================================
+                    SERVICES
+==========================================*/
+
+window.services = [
+    {
+        slug: "werkstatt",
+        title: "Werkstatt",
+        contents: [
+            {
+                url: "dsr24.de/services.html?id=werkstatt",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.services.detail.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Werkstatt",
+                        subtitle: "Werkstatt - Wichtige Begriffe erklärt"
+                    },
+                    {
+                        type: "dsrTemplate1.services.detail.text_image",
+                        enabled: true,
+                        subtitle: "WERKSTATT",
+                        title: "Werkstatt",
+                        paragraph: "In unserer Werkstatt bieten wir eine Vielzahl von Dienstleistungen an, um Ihre Bedürfnisse zu erfüllen. Hier sind einige wichtige Begriffe, die Sie kennen sollten:\n\nDie Werkstatt ist ein Ort, an dem technische Arbeiten durchgeführt werden. Sie können hier Reparaturen, Wartung und andere Dienstleistungen in Anspruch nehmen.",
+                        image: 501
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/services.html?id=werkstatt",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.services.detail.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Workshop",
+                        subtitle: "Workshop - Key terms explained"
+                    },
+                    {
+                        type: "dsrTemplate1.services.detail.text_image",
+                        enabled: true,
+                        subtitle: "WORKSHOP",
+                        title: "Workshop",
+                        paragraph: "We offer a wide range of services in our workshop to meet your needs. Here are some important terms you should know:\n\nThe workshop is a place where technical work is carried out. You can have repairs, maintenance, and other services done here.",
+                        image: 501
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        slug: "autovermietungen",
+        title: "Autovermietungen",
+        contents: [
+            {
+                url: "dsr24.de/services.html?id=autovermietungen",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.services.detail.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Autovermietungen",
+                        subtitle: "Autovermietungen - Wichtige Begriffe erklärt"
+                    },
+                    {
+                        type: "dsrTemplate1.services.detail.text_image",
+                        enabled: true,
+                        subtitle: "AUTOVERMIETUNGEN",
+                        title: "Autovermietungen",
+                        paragraph:
+                            "Wenn Sie nach einem Unfall mobil bleiben müssen, unterstützen wir Sie bei der Organisation eines passenden Mietwagens...",
+                        image: 502,
+                        partnerLogo: 700
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/services.html?id=autovermietungen",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.services.detail.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Car Rentals",
+                        subtitle: "Car rentals - Key terms explained"
+                    },
+                    {
+                        type: "dsrTemplate1.services.detail.text_image",
+                        enabled: true,
+                        subtitle: "CAR RENTALS",
+                        title: "Car Rentals",
+                        paragraph:
+                            "If you need to stay mobile after an accident, we help you arrange a suitable rental car...",
+                        image: 502,
+                        partnerLogo: 700
+                    }
+                ]
+            },
+        ]
+    },
 
 
+    {
+        slug: "rechtsanwalt",
+        title: "Rechtsanwalt",
+        contents: [
+            {
+                url: "dsr24.de/services.html?id=rechtsanwalt",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.services.detail.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Rechtsanwalt",
+                        subtitle: "Rechtsanwalt - Wichtige Begriffe erklärt",
+                        text: "Klicken Sie auf eine Karte, um die Erklärung zu sehen"
+                    },
+                    {
+                        type: "dsrTemplate1.services.detail.text_image",
+                        enabled: true,
+                        subtitle: "RECHTSANWALT",
+                        title: "Rechtsanwalt",
+                        paragraph:
+                            "Nach einem Unfall ist es wichtig, dass Ihre Ansprüche vollständig und korrekt durchgesetzt werden. Ein Rechtsanwalt unterstützt Sie dabei, die Kommunikation mit der gegnerischen Versicherung zu übernehmen und alle erforderlichen Schritte einzuleiten.\n\nSo werden Fristen eingehalten, Kürzungen geprüft und Ihre Schadenersatzansprüche professionell vertreten.",
+                        image: 503,
+                        partnerLogo: 701,
+                        partnerNote: "in Kooperation mit"
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/services.html?id=rechtsanwalt",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.services.detail.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Lawyer",
+                        subtitle: "Lawyer - Key terms explained",
+                        text: "Click on a card to view the explanation"
+                    },
+                    {
+                        type: "dsrTemplate1.services.detail.text_image",
+                        enabled: true,
+                        subtitle: "LAWYER",
+                        title: "Lawyer",
+                        paragraph:
+                            "After an accident, it’s important that your claims are asserted fully and correctly. A lawyer supports you by handling communication with the other party’s insurer and initiating the necessary legal steps.\n\nThis helps ensure deadlines are met, reductions are reviewed, and your compensation claims are represented professionally.",
+                        image: 503,
+                        partnerLogo: 701
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        slug: "sachverstaendige",
+        title: "Sachverstaendige",
+        contents: [
+            {
+                url: "dsr24.de/services.html?id=sachverstaendige",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.services.detail.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Sachverständige",
+                        subtitle: "Sachverständige - Wichtige Begriffe erklärt",
+                        text: "Klicken Sie auf eine Karte, um die Erklärung zu sehen"
+                    },
+                    {
+                        type: "dsrTemplate1.services.detail.text_image",
+                        enabled: true,
+                        subtitle: "SACHVERSTÄNDIGE",
+                        title: "Sachverständige",
+                        paragraph:
+                            "Ein Sachverständiger erstellt ein unabhängiges Gutachten zum Schaden an Ihrem Fahrzeug. Darin werden unter anderem Reparaturkosten, Wertminderung und ggf. Nutzungsausfall dokumentiert.\n\nDas Gutachten ist eine wichtige Grundlage für die Regulierung mit der Versicherung und hilft, Ihre Ansprüche nachvollziehbar zu belegen.",
+                        image: 504,
+                        partnerLogo: 702
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/services.html?id=sachverstaendige",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.services.detail.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Assessors",
+                        subtitle: "Assessors - Key terms explained",
+                        text: "Click on a card to view the explanation"
+                    },
+                    {
+                        type: "dsrTemplate1.services.detail.text_image",
+                        enabled: true,
+                        subtitle: "ASSESSORS",
+                        title: "Assessors",
+                        paragraph:
+                            "An assessor prepares an independent report on the damage to your vehicle. This typically includes repair costs, any loss in value, and—if applicable—compensation for loss of use.\n\nThe report is an important basis for settlement with the insurer and helps document your claims clearly.",
+                        image: 504,
+                        partnerLogo: 702
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        slug: "abschleppdienst",
+        title: "Abschleppdienst",
+        contents: [
+            {
+                url: "dsr24.de/services.html?id=abschleppdienst",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.services.detail.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Abschleppdienst",
+                        subtitle: "Abschleppdienst - Wichtige Begriffe erklärt",
+                        text: "Klicken Sie auf eine Karte, um die Erklärung zu sehen"
+                    },
+                    {
+                        type: "dsrTemplate1.services.detail.text_image",
+                        enabled: true,
+                        subtitle: "ABSCHLEPPDIENST",
+                        title: "Abschleppdienst",
+                        paragraph:
+                            "Wenn Ihr Fahrzeug nach einem Unfall nicht mehr fahrbereit ist, organisiert ein Abschleppdienst den sicheren Transport zur Werkstatt oder zu einem Verwahrplatz.\n\nWir unterstützen Sie dabei, schnell eine passende Lösung zu finden und die nächsten Schritte zuverlässig zu koordinieren.",
+                        image: 505
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/services.html?id=abschleppdienst",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.services.detail.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Towing Service",
+                        subtitle: "Towing service - Key terms explained",
+                        text: "Click on a card to view the explanation"
+                    },
+                    {
+                        type: "dsrTemplate1.services.detail.text_image",
+                        enabled: true,
+                        subtitle: "TOWING SERVICE",
+                        title: "Towing Service",
+                        paragraph:
+                            "If your vehicle is no longer roadworthy after an accident, a towing service arranges safe transport to a workshop or a secure storage location.\n\nWe help you find a suitable solution quickly and coordinate the next steps reliably.",
+                        image: 505
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        slug: "unfallhilfe",
+        title: "Unfalhilfe",
+        contents: [
+            {
+                url: "dsr24.de/services.html?id=unfallhilfe",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.services.detail.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Unfallhilfe",
+                        subtitle: "Unfallhilfe - Wichtige Begriffe erklärt",
+                        text: "Klicken Sie auf eine Karte, um die Erklärung zu sehen"
+                    },
+                    {
+                        type: "dsrTemplate1.services.detail.text_image",
+                        enabled: true,
+                        subtitle: "UNFALLHILFE",
+                        title: "Unfallhilfe",
+                        paragraph:
+                            "Direkt nach einem Unfall zählen schnelle, klare Schritte. Die Unfallhilfe unterstützt Sie dabei, die Situation richtig einzuschätzen, die notwendigen Informationen zu sichern und die nächsten Maßnahmen einzuleiten.\n\nWir begleiten Sie von der ersten Kontaktaufnahme bis zur weiteren Organisation (z. B. Werkstatt, Gutachten, Mietwagen), damit Sie entlastet sind.",
+                        image: 506
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/services.html?id=unfallhilfe",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.services.detail.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Accident Assistance",
+                        subtitle: "Accident assistance - Key terms explained",
+                        text: "Click on a card to view the explanation"
+                    },
+                    {
+                        type: "dsrTemplate1.services.detail.text_image",
+                        enabled: true,
+                        subtitle: "ACCIDENT ASSISTANCE",
+                        title: "Accident Assistance",
+                        paragraph:
+                            "Right after an accident, quick and clear steps matter. Accident assistance helps you assess the situation correctly, secure the necessary information, and initiate the next actions.\n\nWe support you from the first contact through further coordination (e.g., workshop, assessment, rental car) so you’re not left dealing with everything alone.",
+                        image: 506
+                    }
+                ]
+            }
+        ]
+    }
+
+];
 
 
+/*=========================================
+                    jobs
+==========================================*/
 
+window.jobs = [
+    {
+        slug: "web-designer",
+        title: "Job Details",
+        contents: [
+            {
+                url: "dsr24.de/jobs-details.html?id=web-designer",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.job-details.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Web Designer",
+                        meta: "Germany · Vollzeit"
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.back",
+                        enabled: true,
+                        label: "Zurück",
+                        url: "jobs.html" // or your jobs list page
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.description",
+                        enabled: true,
+                        title: "Job Description",
+                        intro: "Wir suchen einen kreativen Web Designer (m/w/d), der unser Team verstärkt.",
+                        requirementsTitle: "Requirements",
+                        requirements: [
+                            "Starke UI/UX Skills",
+                            "HTML, CSS, Figma",
+                            "Auge fürs Detail"
+                        ],
+                        paragraph:
+                            "Du gestaltest moderne Web-Interfaces, optimierst bestehende Designs und arbeitest eng mit Entwicklung und Marketing zusammen. Dabei achtest du auf Konsistenz, Performance und eine sehr gute Nutzerführung."
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.apply",
+                        enabled: true,
+                        title: "Apply for this position",
+                        fields: {
+                            fullNameLabel: "Full name",
+                            emailLabel: "Email",
+                            cvLabel: "CV (PDF)",
+                            messageLabel: "Message",
+                            messagePlaceholder: "Write a short message..."
+                        },
+                        submitLabel: "Submit Application"
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/jobs-details.html?id=web-designer",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    {
+                        type: "dsrTemplate1.job-details.header",
+                        enabled: true,
+                        kicker: "#",
+                        title: "Web Designer",
+                        meta: "Germany · Full time"
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.back",
+                        enabled: true,
+                        label: "Back",
+                        url: "jobs.html"
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.description",
+                        enabled: true,
+                        title: "Job Description",
+                        intro: "We are looking for a creative Web Designer to join our team.",
+                        requirementsTitle: "Requirements",
+                        requirements: [
+                            "Strong UI/UX skills",
+                            "HTML, CSS, Figma",
+                            "Attention to detail"
+                        ],
+                        paragraph:
+                            "You will design modern web interfaces, improve existing layouts, and work closely with development and marketing. You care about consistency, performance, and a great user experience."
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.apply",
+                        enabled: true,
+                        title: "Apply for this position",
+                        fields: {
+                            fullNameLabel: "Full name",
+                            emailLabel: "Email",
+                            cvLabel: "CV (PDF)",
+                            messageLabel: "Message",
+                            messagePlaceholder: "Write a short message..."
+                        },
+                        submitLabel: "Submit Application"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        slug: "front-end-developer",
+        title: "Job Details",
+        contents: [
+            {
+                url: "dsr24.de/jobs-details.html?id=front-end-developer",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    { type: "dsrTemplate1.job-details.header", enabled: true, kicker: "#", title: "Front-end Developer", meta: "Remote" },
+                    { type: "dsrTemplate1.job-details.back", enabled: true, label: "Zurück", url: "jobs.html" },
+                    {
+                        type: "dsrTemplate1.job-details.description",
+                        enabled: true,
+                        title: "Job Description",
+                        intro: "Werde Teil unseres Frontend-Teams und arbeite mit modernen Technologien.",
+                        requirementsTitle: "Requirements",
+                        requirements: ["JavaScript / React", "REST APIs", "Git Erfahrung"],
+                        paragraph:
+                            "Du entwickelst und pflegst UI-Komponenten, setzt Designs sauber um und achtest auf Performance sowie eine sehr gute User Experience. Gemeinsam mit Backend und Design bringst du Features schnell und zuverlässig in Produktion."
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.apply",
+                        enabled: true,
+                        title: "Apply for this position",
+                        fields: {
+                            fullNameLabel: "Full name",
+                            emailLabel: "Email",
+                            cvLabel: "CV (PDF)",
+                            messageLabel: "Message",
+                            messagePlaceholder: "Write a short message..."
+                        },
+                        submitLabel: "Submit Application"
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/jobs-details.html?id=front-end-developer",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    { type: "dsrTemplate1.job-details.header", enabled: true, kicker: "#", title: "Front-end Developer", meta: "Remote" },
+                    { type: "dsrTemplate1.job-details.back", enabled: true, label: "Back", url: "jobs.html" },
+                    {
+                        type: "dsrTemplate1.job-details.description",
+                        enabled: true,
+                        title: "Job Description",
+                        intro: "Join our frontend team working with modern technologies.",
+                        requirementsTitle: "Requirements",
+                        requirements: ["JavaScript / React", "REST APIs", "Git experience"],
+                        paragraph:
+                            "You will build and maintain UI components, implement designs with high fidelity, and focus on performance and a great user experience. Working closely with backend and design, you’ll ship features quickly and reliably."
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.apply",
+                        enabled: true,
+                        title: "Apply for this position",
+                        fields: {
+                            fullNameLabel: "Full name",
+                            emailLabel: "Email",
+                            cvLabel: "CV (PDF)",
+                            messageLabel: "Message",
+                            messagePlaceholder: "Write a short message..."
+                        },
+                        submitLabel: "Submit Application"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        slug: "back-end-developer",
+        title: "Job Details",
+        contents: [
+            {
+                url: "dsr24.de/jobs-details.html?id=back-end-developer",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    { type: "dsrTemplate1.job-details.header", enabled: true, kicker: "#", title: "Back-end Developer", meta: "Remote" },
+                    { type: "dsrTemplate1.job-details.back", enabled: true, label: "Zurück", url: "jobs.html" },
+                    {
+                        type: "dsrTemplate1.job-details.description",
+                        enabled: true,
+                        title: "Job Description",
+                        intro: "Werde Teil unseres Backend-Teams und arbeite mit modernen Technologien.",
+                        requirementsTitle: "Requirements",
+                        requirements: ["Node.js / Express", "Database management", "API development"],
+                        paragraph:
+                            "Du entwickelst skalierbare Services, modellierst Datenstrukturen und sorgst für stabile Schnittstellen. Du arbeitest eng mit Frontend und Operations zusammen und bringst Qualität über Tests, Logging und Monitoring ins Produkt."
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.apply",
+                        enabled: true,
+                        title: "Apply for this position",
+                        fields: {
+                            fullNameLabel: "Full name",
+                            emailLabel: "Email",
+                            cvLabel: "CV (PDF)",
+                            messageLabel: "Message",
+                            messagePlaceholder: "Write a short message..."
+                        },
+                        submitLabel: "Submit Application"
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/jobs-details.html?id=back-end-developer",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    { type: "dsrTemplate1.job-details.header", enabled: true, kicker: "#", title: "Back-end Developer", meta: "Remote" },
+                    { type: "dsrTemplate1.job-details.back", enabled: true, label: "Back", url: "jobs.html" },
+                    {
+                        type: "dsrTemplate1.job-details.description",
+                        enabled: true,
+                        title: "Job Description",
+                        intro: "Join our backend team working with modern technologies.",
+                        requirementsTitle: "Requirements",
+                        requirements: ["Node.js / Express", "Database management", "API development"],
+                        paragraph:
+                            "You will build scalable services, model data structures, and ensure stable interfaces. You’ll work closely with frontend and operations, and bring quality through testing, logging, and monitoring."
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.apply",
+                        enabled: true,
+                        title: "Apply for this position",
+                        fields: {
+                            fullNameLabel: "Full name",
+                            emailLabel: "Email",
+                            cvLabel: "CV (PDF)",
+                            messageLabel: "Message",
+                            messagePlaceholder: "Write a short message..."
+                        },
+                        submitLabel: "Submit Application"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        slug: "web-developer",
+        title: "Job Details",
+        contents: [
+            {
+                url: "dsr24.de/jobs-details.html?id=web-developer",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    { type: "dsrTemplate1.job-details.header", enabled: true, kicker: "#", title: "Web Developer", meta: "Germany · Vollzeit" },
+                    { type: "dsrTemplate1.job-details.back", enabled: true, label: "Zurück", url: "jobs.html" },
+                    {
+                        type: "dsrTemplate1.job-details.description",
+                        enabled: true,
+                        title: "Job Description",
+                        intro: "Wir suchen einen erfahrenen Web Developer, der unsere Plattform weiterentwickelt.",
+                        requirementsTitle: "Requirements",
+                        requirements: ["Full-stack development", "Node.js, Express", "Database management"],
+                        paragraph:
+                            "Du arbeitest an Features über den gesamten Stack, setzt Schnittstellen um und verbesserst bestehende Bereiche. Wichtig sind sauberes Engineering, verständlicher Code und ein Auge für Produktqualität."
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.apply",
+                        enabled: true,
+                        title: "Apply for this position",
+                        fields: {
+                            fullNameLabel: "Full name",
+                            emailLabel: "Email",
+                            cvLabel: "CV (PDF)",
+                            messageLabel: "Message",
+                            messagePlaceholder: "Write a short message..."
+                        },
+                        submitLabel: "Submit Application"
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/jobs-details.html?id=web-developer",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    { type: "dsrTemplate1.job-details.header", enabled: true, kicker: "#", title: "Web Developer", meta: "Germany · Full time" },
+                    { type: "dsrTemplate1.job-details.back", enabled: true, label: "Back", url: "jobs.html" },
+                    {
+                        type: "dsrTemplate1.job-details.description",
+                        enabled: true,
+                        title: "Job Description",
+                        intro: "We are looking for a skilled Web Developer to build our platform.",
+                        requirementsTitle: "Requirements",
+                        requirements: ["Full-stack development", "Node.js, Express", "Database management"],
+                        paragraph:
+                            "You’ll work on features across the stack, implement APIs, and improve existing areas. We value clean engineering, readable code, and strong product quality."
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.apply",
+                        enabled: true,
+                        title: "Apply for this position",
+                        fields: {
+                            fullNameLabel: "Full name",
+                            emailLabel: "Email",
+                            cvLabel: "CV (PDF)",
+                            messageLabel: "Message",
+                            messagePlaceholder: "Write a short message..."
+                        },
+                        submitLabel: "Submit Application"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        slug: "marketing-trainee",
+        title: "Job Details",
+        contents: [
+            {
+                url: "dsr24.de/jobs-details.html?id=marketing-trainee",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    { type: "dsrTemplate1.job-details.header", enabled: true, kicker: "#", title: "Marketing Trainee", meta: "Germany · Vollzeit" },
+                    { type: "dsrTemplate1.job-details.back", enabled: true, label: "Zurück", url: "jobs.html" },
+                    {
+                        type: "dsrTemplate1.job-details.description",
+                        enabled: true,
+                        title: "Job Description",
+                        intro: "Starte deine Marketing-Karriere bei uns als Trainee.",
+                        requirementsTitle: "Requirements",
+                        requirements: ["Leidenschaft für Marketing", "Starke Kommunikationsfähigkeiten", "Lernbereitschaft"],
+                        paragraph:
+                            "Du unterstützt bei Kampagnen, Content und Analysen. Du arbeitest mit verschiedenen Teams zusammen und lernst Schritt für Schritt, wie Marketingmaßnahmen geplant, umgesetzt und ausgewertet werden."
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.apply",
+                        enabled: true,
+                        title: "Apply for this position",
+                        fields: {
+                            fullNameLabel: "Full name",
+                            emailLabel: "Email",
+                            cvLabel: "CV (PDF)",
+                            messageLabel: "Message",
+                            messagePlaceholder: "Write a short message..."
+                        },
+                        submitLabel: "Submit Application"
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/jobs-details.html?id=marketing-trainee",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    { type: "dsrTemplate1.job-details.header", enabled: true, kicker: "#", title: "Marketing Trainee", meta: "Germany · Full time" },
+                    { type: "dsrTemplate1.job-details.back", enabled: true, label: "Back", url: "jobs.html" },
+                    {
+                        type: "dsrTemplate1.job-details.description",
+                        enabled: true,
+                        title: "Job Description",
+                        intro: "Kickstart your marketing career with us as a trainee.",
+                        requirementsTitle: "Requirements",
+                        requirements: ["Passion for marketing", "Strong communication skills", "Eagerness to learn"],
+                        paragraph:
+                            "You will support campaigns, content, and analysis. Working across teams, you’ll learn how marketing initiatives are planned, executed, and evaluated step by step."
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.apply",
+                        enabled: true,
+                        title: "Apply for this position",
+                        fields: {
+                            fullNameLabel: "Full name",
+                            emailLabel: "Email",
+                            cvLabel: "CV (PDF)",
+                            messageLabel: "Message",
+                            messagePlaceholder: "Write a short message..."
+                        },
+                        submitLabel: "Submit Application"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        slug: "analyst",
+        title: "Job Details",
+        contents: [
+            {
+                url: "dsr24.de/jobs-details.html?id=analyst",
+                lang: "DE",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    { type: "dsrTemplate1.job-details.header", enabled: true, kicker: "#", title: "Analyst", meta: "Germany · Vollzeit" },
+                    { type: "dsrTemplate1.job-details.back", enabled: true, label: "Zurück", url: "jobs.html" },
+                    {
+                        type: "dsrTemplate1.job-details.description",
+                        enabled: true,
+                        title: "Job Description",
+                        intro: "Wir suchen einen datengetriebenen Analysten (m/w/d), der unser Team verstärkt.",
+                        requirementsTitle: "Requirements",
+                        requirements: ["Data analysis skills", "Experience with SQL and Excel", "Critical thinking"],
+                        paragraph:
+                            "Du analysierst Kennzahlen, erstellst Reports und leitest daraus konkrete Empfehlungen ab. Du arbeitest mit Product und Operations zusammen und hilfst dabei, Prozesse datenbasiert zu optimieren."
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.apply",
+                        enabled: true,
+                        title: "Apply for this position",
+                        fields: {
+                            fullNameLabel: "Full name",
+                            emailLabel: "Email",
+                            cvLabel: "CV (PDF)",
+                            messageLabel: "Message",
+                            messagePlaceholder: "Write a short message..."
+                        },
+                        submitLabel: "Submit Application"
+                    }
+                ]
+            },
+            {
+                url: "dsr24.de/en/jobs-details.html?id=analyst",
+                lang: "EN",
+                lastUpdated: "2026-02-12 13:45:10",
+                blocks: [
+                    { type: "dsrTemplate1.job-details.header", enabled: true, kicker: "#", title: "Analyst", meta: "Germany · Full time" },
+                    { type: "dsrTemplate1.job-details.back", enabled: true, label: "Back", url: "jobs.html" },
+                    {
+                        type: "dsrTemplate1.job-details.description",
+                        enabled: true,
+                        title: "Job Description",
+                        intro: "We are looking for a data-driven Analyst to join our team.",
+                        requirementsTitle: "Requirements",
+                        requirements: ["Data analysis skills", "Experience with SQL and Excel", "Critical thinking"],
+                        paragraph:
+                            "You will analyze KPIs, build reports, and turn insights into clear recommendations. You’ll collaborate with product and operations to optimize processes based on data."
+                    },
+                    {
+                        type: "dsrTemplate1.job-details.apply",
+                        enabled: true,
+                        title: "Apply for this position",
+                        fields: {
+                            fullNameLabel: "Full name",
+                            emailLabel: "Email",
+                            cvLabel: "CV (PDF)",
+                            messageLabel: "Message",
+                            messagePlaceholder: "Write a short message..."
+                        },
+                        submitLabel: "Submit Application"
+                    }
+                ]
+            }
+        ]
+    }
+];
+
+// NEWS DETAILS collection
+window.news = [
+  {
+    slug: "quick-guide-on-business-with-friends",
+    title: "Quick guide on business with friends.",
+    contents: [
+      {
+        url: "dsr24.de/news-details.html?id=1",
+        lang: "DE",
+        lastUpdated: "2026-02-12 13:45:10",
+        blocks: [
+          {
+            type: "dsrTemplate1.news-details.header",
+            enabled: true,
+            kicker: "#",
+            title: "Schneller Leitfaden für Geschäfte mit Freunden.",
+            meta: {
+              date: "2024-06-01",
+              author: "John Doe 1"
+            }
+          },
+          {
+            type: "dsrTemplate1.news-details.back",
+            enabled: true,
+            label: "Zurück zu News",
+            url: "news.html"
+          },
+          {
+            type: "dsrTemplate1.news-details.hero_card",
+            enabled: true,
+            title: "DSR24 News",
+            backgroundimage: 0
+          },
+          {
+            type: "dsrTemplate1.news-details.body",
+            enabled: true,
+            intro:
+              "Dies ist der Einleitungsabsatz des Artikels. Er sollte die wichtigsten Informationen zusammenfassen und sofort Aufmerksamkeit erzeugen.",
+            paragraph1:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+            section: {
+              title: "Untertitel Beispiel",
+              text:
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+            },
+            quote:
+              "Dies ist ein hervorgehobenes Zitat aus dem Artikel, um wichtige Informationen zu betonen.",
+            paragraph2:
+              "Abschließender Abschnitt des Inhalts. Sie können weitere strukturierte Abschnitte, Bilder, Listen oder eingebettete Inhalte hinzufügen."
+          },
+          {
+            type: "dsrTemplate1.news-details.tags",
+            enabled: true,
+            label: "Tags:",
+            items: ["Sicherheit", "Versicherung", "Update"]
+          },
+          {
+            type: "dsrTemplate1.news-details.sidebar",
+            enabled: true,
+            shareTitle: "DIESEN ARTIKEL TEILEN",
+            share: {
+              facebook: true,
+              twitter: true,
+              linkedin: true
+            },
+            latestTitle: "AKTUELLE NEWS",
+            latest: [
+              { title: "So bearbeitet man Versicherungsfälle effizient", date: "10. Feb. 2026", url: "news-details.html?id=handle-claims-efficiently" },
+              { title: "Neuer Service-Ausbau angekündigt", date: "08. Feb. 2026", url: "news-details.html?id=service-expansion" },
+              { title: "DSR24 erreicht neuen Meilenstein", date: "05. Feb. 2026", url: "news-details.html?id=new-milestone" }
+            ]
+          }
+        ]
+      },
+      {
+        url: "dsr24.de/en/news-details.html?id=quick-guide-on-business-with-friends",
+        lang: "EN",
+        lastUpdated: "2026-02-12 13:45:10",
+        blocks: [
+          {
+            type: "dsrTemplate1.news-details.header",
+            enabled: true,
+            kicker: "#",
+            title: "Quick guide on business with friends.",
+            meta: {
+              date: "2024-06-01",
+              author: "John Doe 1"
+            }
+          },
+          {
+            type: "dsrTemplate1.news-details.back",
+            enabled: true,
+            label: "Back to News",
+            url: "news.html"
+          },
+          {
+            type: "dsrTemplate1.news-details.hero_card",
+            enabled: true,
+            title: "DSR24 News",
+            backgroundimage: 0
+          },
+          {
+            type: "dsrTemplate1.news-details.body",
+            enabled: true,
+            intro:
+              "This is the article introduction paragraph. It should summarize the most important information and immediately capture attention.",
+            paragraph1:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+            section: {
+              title: "Subtitle Example",
+              text:
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+            },
+            quote:
+              "This is a highlighted quote from the article to emphasize key information.",
+            paragraph2:
+              "Final section of the article content. You can continue adding structured sections, images, lists or embedded content."
+          },
+          {
+            type: "dsrTemplate1.news-details.tags",
+            enabled: true,
+            label: "Tags:",
+            items: ["Security", "Insurance", "Update"]
+          },
+          {
+            type: "dsrTemplate1.news-details.sidebar",
+            enabled: true,
+            shareTitle: "SHARE THIS ARTICLE",
+            share: {
+              facebook: true,
+              twitter: true,
+              linkedin: true
+            },
+            latestTitle: "LATEST NEWS",
+            latest: [
+              { title: "How to handle insurance claims efficiently", date: "Feb 10, 2026", url: "news-details.html?id=handle-claims-efficiently" },
+              { title: "New service expansion announced", date: "Feb 08, 2026", url: "news-details.html?id=service-expansion" },
+              { title: "DSR24 reaches new milestone", date: "Feb 05, 2026", url: "news-details.html?id=new-milestone" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    slug: "news 2",
+    title: "News 2",
+    contents: [
+      {
+        url: "dsr24.de/news-details.html?id=2",
+        lang: "DE",
+        lastUpdated: "2026-02-12 13:45:10",
+        blocks: [
+          {
+            type: "dsrTemplate1.news-details.header",
+            enabled: true,
+            kicker: "#",
+            title: "News 2",
+            meta: {
+              date: "2024-06-01",
+              author: "John Doe 1"
+            }
+          },
+          {
+            type: "dsrTemplate1.news-details.back",
+            enabled: true,
+            label: "Zurück zu News",
+            url: "news.html"
+          },
+          {
+            type: "dsrTemplate1.news-details.hero_card",
+            enabled: true,
+            title: "DSR24 News",
+            backgroundimage: 0
+          },
+          {
+            type: "dsrTemplate1.news-details.body",
+            enabled: true,
+            intro:
+              "Dies ist der Einleitungsabsatz des Artikels. Er sollte die wichtigsten Informationen zusammenfassen und sofort Aufmerksamkeit erzeugen.",
+            paragraph1:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+            section: {
+              title: "Untertitel Beispiel",
+              text:
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+            },
+            quote:
+              "Dies ist ein hervorgehobenes Zitat aus dem Artikel, um wichtige Informationen zu betonen.",
+            paragraph2:
+              "Abschließender Abschnitt des Inhalts. Sie können weitere strukturierte Abschnitte, Bilder, Listen oder eingebettete Inhalte hinzufügen."
+          },
+          {
+            type: "dsrTemplate1.news-details.tags",
+            enabled: true,
+            label: "Tags:",
+            items: ["Sicherheit", "Versicherung", "Update"]
+          },
+          {
+            type: "dsrTemplate1.news-details.sidebar",
+            enabled: true,
+            shareTitle: "DIESEN ARTIKEL TEILEN",
+            share: {
+              facebook: true,
+              twitter: true,
+              linkedin: true
+            },
+            latestTitle: "AKTUELLE NEWS",
+            latest: [
+              { title: "So bearbeitet man Versicherungsfälle effizient", date: "10. Feb. 2026", url: "news-details.html?id=handle-claims-efficiently" },
+              { title: "Neuer Service-Ausbau angekündigt", date: "08. Feb. 2026", url: "news-details.html?id=service-expansion" },
+              { title: "DSR24 erreicht neuen Meilenstein", date: "05. Feb. 2026", url: "news-details.html?id=new-milestone" }
+            ]
+          }
+        ]
+      },
+      {
+        url: "dsr24.de/en/news-details.html?id=quick-guide-on-business-with-friends",
+        lang: "EN",
+        lastUpdated: "2026-02-12 13:45:10",
+        blocks: [
+          {
+            type: "dsrTemplate1.news-details.header",
+            enabled: true,
+            kicker: "#",
+            title: "Quick guide on business with friends.",
+            meta: {
+              date: "2024-06-01",
+              author: "John Doe 1"
+            }
+          },
+          {
+            type: "dsrTemplate1.news-details.back",
+            enabled: true,
+            label: "Back to News",
+            url: "news.html"
+          },
+          {
+            type: "dsrTemplate1.news-details.hero_card",
+            enabled: true,
+            title: "DSR24 News",
+            backgroundimage: 0
+          },
+          {
+            type: "dsrTemplate1.news-details.body",
+            enabled: true,
+            intro:
+              "This is the article introduction paragraph. It should summarize the most important information and immediately capture attention.",
+            paragraph1:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+            section: {
+              title: "Subtitle Example",
+              text:
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+            },
+            quote:
+              "This is a highlighted quote from the article to emphasize key information.",
+            paragraph2:
+              "Final section of the article content. You can continue adding structured sections, images, lists or embedded content."
+          },
+          {
+            type: "dsrTemplate1.news-details.tags",
+            enabled: true,
+            label: "Tags:",
+            items: ["Security", "Insurance", "Update"]
+          },
+          {
+            type: "dsrTemplate1.news-details.sidebar",
+            enabled: true,
+            shareTitle: "SHARE THIS ARTICLE",
+            share: {
+              facebook: true,
+              twitter: true,
+              linkedin: true
+            },
+            latestTitle: "LATEST NEWS",
+            latest: [
+              { title: "How to handle insurance claims efficiently", date: "Feb 10, 2026", url: "news-details.html?id=handle-claims-efficiently" },
+              { title: "New service expansion announced", date: "Feb 08, 2026", url: "news-details.html?id=service-expansion" },
+              { title: "DSR24 reaches new milestone", date: "Feb 05, 2026", url: "news-details.html?id=new-milestone" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
 
 

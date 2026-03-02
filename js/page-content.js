@@ -16,6 +16,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const slug = params.get("id");
   const lang = (params.get("lang") || "DE").toUpperCase(); // default DE
 
+  if (["services", "job-details", "news-details"].includes(slug)) {
+    initCollectionTabs(slug, lang);
+    return;
+  }
+
   const page = window.pages.find(p => p.slug === slug);
   if (!page) return console.error("Page not found");
 
@@ -1003,4 +1008,309 @@ function createElement(elementType) {
     default:
       return { type: "text", text: "" };
   }
+}
+
+
+/*=====================================================
+SERVICES
+=====================================================*/
+
+function getCollectionById(id) {
+  const map = {
+    services: window.services,
+    "job-details": window.jobs,
+    "news-details": window.news
+  };
+  return map[id] || [];
+}
+
+function initCollectionTabs(collectionId, lang) {
+  const tabsEl = document.getElementById("collectionTabs"); // you can rename to "collectionTabs"
+  if (!tabsEl) return console.error("Missing tabs element");
+
+  const items = getCollectionById(collectionId) || [];
+  if (!items.length) {
+    tabsEl.innerHTML = `<li class="nav-item"><span class="text-muted">No items in ${collectionId}.</span></li>`;
+    return;
+  }
+
+  tabsEl.innerHTML = "";
+
+  items.forEach((item, index) => {
+    const content = getItemContent(item, lang);
+
+    // Try to get a nice label from a header block; fallback slug
+    const label =
+      content?.blocks?.find(b => String(b.type).includes(".header"))?.title ||
+      item.slug;
+
+    const li = document.createElement("li");
+    li.className = "nav-item";
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "nav-link";
+    btn.dataset.slug = item.slug;
+    btn.textContent = label;
+
+    btn.addEventListener("click", () => selectCollectionItem(collectionId, item.slug, lang));
+
+    if (index === 0) btn.classList.add("active");
+
+    li.appendChild(btn);
+    tabsEl.appendChild(li);
+  });
+
+  // add button
+  {
+    const li = document.createElement("li");
+    li.className = "nav-item ms-auto";
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "nav-link";
+    btn.innerHTML = `<i class="bi bi-plus-lg"></i> Add`;
+
+    btn.addEventListener("click", () => {
+      const title = prompt("Enter title:");
+      if (!title) return;
+
+      const slug = slugify(title);
+
+      const items = getCollectionById(collectionId);
+
+      // prevent duplicate slug
+      if (items.some(i => i.slug === slug)) {
+        alert("An item with this title already exists.");
+        return;
+      }
+
+      const newItem = createNewCollectionItem(collectionId, title, slug);
+      items.push(newItem);
+
+      initCollectionTabs(collectionId, lang);
+      selectCollectionItem(collectionId, slug, lang);
+    });
+
+    li.appendChild(btn);
+    tabsEl.appendChild(li);
+  }
+
+  // ✅ Delete button tab
+  {
+    const li = document.createElement("li");
+    li.className = "nav-item";
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "nav-link text-danger";
+    btn.innerHTML = `<i class="bi bi-trash"></i> Delete`;
+
+    btn.addEventListener("click", deleteActiveCollectionItem);
+
+    li.appendChild(btn);
+    tabsEl.appendChild(li);
+  }
+
+  selectCollectionItem(collectionId, items[0].slug, lang);
+}
+
+function selectCollectionItem(collectionId, slug, lang) {
+  document.querySelectorAll("#collectionTabs .nav-link").forEach(el => {
+    el.classList.toggle("active", el.dataset.slug === slug);
+  });
+
+  const items = getCollectionById(collectionId) || [];
+  const item = items.find(x => x.slug === slug);
+  if (!item) return console.error("Item not found:", collectionId, slug);
+
+  const content = getItemContent(item, lang);
+  if (!content) return console.error("Language content not found:", collectionId, slug, lang);
+
+  // Save current context for Save button
+  window.__activeCollection = collectionId;
+  window.__activeSlug = slug;
+  window.__activeLang = lang;
+
+  bindPageData(item, content);
+  renderBlocks(item, content);
+  wireContentEditor(item, content);
+  initializeDragAndDrop();
+}
+
+function getItemContent(item, lang) {
+  return item.contents?.find(c => (c.lang || "").toUpperCase() === lang);
+}
+
+
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+}
+
+function createNewCollectionItem(collectionId, title, slug) {
+
+  if (collectionId === "job-details") {
+    return {
+      slug: slug,
+      title: "Job Details",
+      contents: [
+        {
+          url: `dsr24.de/jobs-details.html?id=${slug}`,
+          lang: "DE",
+          lastUpdated: new Date().toISOString().slice(0, 19).replace("T", " "),
+          blocks: [
+            { type: "dsrTemplate1.job-details.header", enabled: true, kicker: "#", title: slug, meta: "Germany · Full time" },
+            { type: "dsrTemplate1.job-details.back", enabled: true, label: "Zurück", url: "jobs.html" },
+            {
+              type: "dsrTemplate1.job-details.description",
+              enabled: true,
+              title: "Job Description",
+              intro: "Short intro...",
+              requirementsTitle: "Requirements",
+              requirements: ["Requirement 1", "Requirement 2", "Requirement 3"],
+              paragraph: "Longer description..."
+            },
+            {
+              type: "dsrTemplate1.job-details.apply",
+              enabled: true,
+              title: "Apply for this position",
+              fields: {
+                fullNameLabel: "Full name",
+                emailLabel: "Email",
+                cvLabel: "CV (PDF)",
+                messageLabel: "Message",
+                messagePlaceholder: "Write a short message..."
+              },
+              submitLabel: "Submit Application"
+            }
+          ]
+        },
+        {
+          url: `dsr24.de/en/jobs-details.html?id=${slug}`,
+          lang: "EN",
+          lastUpdated: new Date().toISOString().slice(0, 19).replace("T", " "),
+          blocks: [
+            { type: "dsrTemplate1.job-details.header", enabled: true, kicker: "#", title: slug, meta: "Germany · Full time" },
+            { type: "dsrTemplate1.job-details.back", enabled: true, label: "Back", url: "jobs.html" },
+            {
+              type: "dsrTemplate1.job-details.description",
+              enabled: true,
+              title: "Job Description",
+              intro: "Short intro...",
+              requirementsTitle: "Requirements",
+              requirements: ["Requirement 1", "Requirement 2", "Requirement 3"],
+              paragraph: "Longer description..."
+            },
+            {
+              type: "dsrTemplate1.job-details.apply",
+              enabled: true,
+              title: "Apply for this position",
+              fields: {
+                fullNameLabel: "Full name",
+                emailLabel: "Email",
+                cvLabel: "CV (PDF)",
+                messageLabel: "Message",
+                messagePlaceholder: "Write a short message..."
+              },
+              submitLabel: "Submit Application"
+            }
+          ]
+        }
+      ]
+    };
+  }
+
+  if (collectionId === "services") {
+    return {
+      slug: slug,
+      title: title,
+      contents: [
+        {
+          url: `dsr24.de/services.html?id=${slug}`,
+          lang: "DE",
+          lastUpdated: new Date().toISOString().slice(0, 19).replace("T", " "),
+          blocks: [
+            { type: "dsrTemplate1.services.detail.header", enabled: true, kicker: "#", title: slug, meta: "Wichtige Begriffe erklärt" },
+            { type: "dsrTemplate1.services.detail.back", enabled: true, label: "Zurück zu Leistungen", url: "services.html" },
+            { type: "dsrTemplate1.services.detail.text_image", enabled: true, subtitle: "SERVICE", title: slug, paragraph: "Text...", image: 0 }
+          ]
+        },
+        {
+          url: `dsr24.de/en/services.html?id=${slug}`,
+          lang: "EN",
+          lastUpdated: new Date().toISOString().slice(0, 19).replace("T", " "),
+          blocks: [
+            { type: "dsrTemplate1.services.detail.header", enabled: true, kicker: "#", title: slug, meta: "Key terms explained" },
+            { type: "dsrTemplate1.services.detail.back", enabled: true, label: "Back to Services", url: "services.html" },
+            { type: "dsrTemplate1.services.detail.text_image", enabled: true, subtitle: "SERVICE", title: slug, paragraph: "Text...", image: 0 }
+          ]
+        }
+      ]
+    };
+  }
+
+  // news (generic)
+  if (collectionId === "news") {
+    return {
+      slug: slug,
+      title: "New News",
+      contents: [
+        {
+          url: `dsr24.de/news-details.html?id=${slug}`,
+          lang: "DE",
+          lastUpdated: new Date().toISOString().slice(0, 19).replace("T", " "),
+          blocks: [
+            { type: "dsrTemplate1.news-details.header", enabled: true, kicker: "#", title: "Neue News", meta: "" },
+            { type: "dsrTemplate1.news-details.body", enabled: true, title: "Titel", paragraph: "Text..." }
+          ]
+        },
+        {
+          url: `dsr24.de/en/news-details.html?id=${slug}`,
+          lang: "EN",
+          lastUpdated: new Date().toISOString().slice(0, 19).replace("T", " "),
+          blocks: [
+            { type: "dsrTemplate1.news-details.header", enabled: true, kicker: "#", title: "New News", meta: "" },
+            { type: "dsrTemplate1.news-details.body", enabled: true, title: "Title", paragraph: "Text..." }
+          ]
+        }
+      ]
+    };
+  }
+
+  // fallback
+  return { slug: slug, title: title, contents: [] };
+}
+
+
+function deleteActiveCollectionItem() {
+  const collectionId = window.__activeCollection;
+  const slug = window.__activeSlug;
+  const lang = window.__activeLang;
+
+  if (!collectionId || !slug) return;
+
+  const items = getCollectionById(collectionId);
+  const index = items.findIndex(i => i.slug === slug);
+  if (index === -1) return;
+
+  if (items.length <= 1) {
+    alert("You must keep at least one item.");
+    return;
+  }
+
+  const ok = confirm(`Delete "${items[index].title || items[index].slug}"? This cannot be undone.`);
+  if (!ok) return;
+
+  items.splice(index, 1);
+
+  // pick next item to show
+  const next = items[Math.min(index, items.length - 1)];
+
+  initCollectionTabs(collectionId, lang);
+  selectCollectionItem(collectionId, next.slug, lang);
 }
