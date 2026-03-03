@@ -360,17 +360,44 @@ function renderBlocks(page, content) {
 
   // Needs to be reattached after every render (because buttons are recreated)
   attachBlockControls(page, content);
+  
+  // Attach drag-drop listeners to each card-body
+  attachCardBodyDropZones(page, content);
 }
 
 function renderBlockContent(block) {
   const schema = BLOCK_SCHEMAS[block.type];
   if (!schema) return renderGenericBlock(block);
 
-  return `
+  let html = `
     <div class="block-form">
       ${(schema.fields || []).map(field => renderField(block, field)).join("")}
+  `;
+
+  // Also render elements if they exist (allows drag-drop elements in any block)
+  if (Array.isArray(block.elements) && block.elements.length > 0) {
+    html += `
+      <div class="border-top pt-3 mt-3">
+        <h6 class="fw-bold mb-3">Dragged Elements</h6>
+        ${renderAutoTable("elements", block.elements, [
+          { key: "type", label: "Type" },
+          { key: "imageId", label: "Image ID" },
+          { key: "alt", label: "Alt" },
+          { key: "videoId", label: "Video ID" },
+          { key: "posterId", label: "Poster ID" },
+          { key: "text", label: "Text/Title" },
+          { key: "title", label: "Title" },
+          { key: "buttonText", label: "Button Text" },
+          { key: "buttonLink", label: "Button Link" }
+        ])}
+      </div>
+    `;
+  }
+
+  html += `
     </div>
   `;
+  return html;
 }
 
 
@@ -872,11 +899,14 @@ function initializeDragAndDrop(page, content) {
     blockEl.classList.remove("dragging");
   });
 
+  // UNIFIED dragover: handle both reordering
   container.addEventListener("dragover", (e) => {
-    e.preventDefault();
-
+    // Check if we're reordering (dragging from .dragging class, not from palette)
     const dragging = container.querySelector(".content-block.dragging");
     if (!dragging) return;
+    
+    e.preventDefault();
+    e.dataTransfer.dropEffect = "move";
 
     const afterEl = getDragAfterElement(container, e.clientY);
     if (afterEl == null) {
@@ -886,6 +916,7 @@ function initializeDragAndDrop(page, content) {
     }
   });
 
+  // UNIFIED drop: handle reordering only (element drops handled in attachCardBodyDropZones)
   container.addEventListener("drop", (e) => {
     e.preventDefault();
 
@@ -895,47 +926,13 @@ function initializeDragAndDrop(page, content) {
     let payload;
     try { payload = JSON.parse(data); } catch { return; }
 
-    // If it was a reorder drop, sync JSON order to DOM order
+    // Only handle reordering here
     if (payload.kind === "reorder") {
       syncBlocksOrderFromDOM(container, content);
       return;
     }
 
     // Block insertion is handled in wirePaletteDragAndDrop()
-  });
-
-  // Drop content elements INTO a specific block body
-  container.addEventListener("dragover", (e) => {
-    const body = e.target.closest(".content-block .card-body");
-    if (!body) return;
-    e.preventDefault();
-    e.dataTransfer.dropEffect = "copy";
-  });
-
-  container.addEventListener("drop", (e) => {
-    const body = e.target.closest(".content-block .card-body");
-    if (!body) return;
-
-    e.preventDefault();
-
-    const data = e.dataTransfer.getData("application/json");
-    if (!data) return;
-
-    let payload;
-    try { payload = JSON.parse(data); } catch { return; }
-
-    // Only handle content-type drops here
-    if (payload.kind !== "element" || !payload.elementType) return;
-
-    const blockEl = body.closest(".content-block");
-    const blockId = blockEl?.dataset.blockId;
-    const block = getBlockById(content, blockId);
-    if (!block) return;
-
-    block.elements = Array.isArray(block.elements) ? block.elements : [];
-    block.elements.push(createElement(payload.elementType));
-
-    renderBlocks(page, content);
   });
 }
 
@@ -1148,6 +1145,63 @@ function selectCollectionItem(collectionId, slug, lang) {
   renderBlocks(item, content);
   wireContentEditor(item, content);
   initializeDragAndDrop();
+}
+
+function attachCardBodyDropZones(page, content) {
+  // Add direct dragover/drop listeners to each card-body for element insertion
+  document.querySelectorAll(".card-body").forEach(cardBody => {
+    cardBody.addEventListener("dragover", (e) => {
+      const data = e.dataTransfer.getData("application/json");
+      let payload = null;
+      if (data) {
+        try { payload = JSON.parse(data); } catch { }
+      }
+
+      // Only allow element drops on card-body
+      if (payload && payload.kind === "element") {
+        const blockEl = cardBody.closest(".content-block");
+        const block = blockEl ? getBlockById(content, blockEl.dataset.blockId) : null;
+        
+        // Check if block has elements field (supports elements)
+        if (block && supportsElements(block)) {
+          e.preventDefault();
+          e.dataTransfer.dropEffect = "copy";
+          cardBody.style.backgroundColor = "rgba(0, 0, 0, 0.05)";
+        }
+      }
+    });
+
+    cardBody.addEventListener("dragleave", (e) => {
+      // Remove highlight if leaving the card-body
+      if (e.target === cardBody) {
+        cardBody.style.backgroundColor = "";
+      }
+    });
+
+    cardBody.addEventListener("drop", (e) => {
+      e.preventDefault();
+      cardBody.style.backgroundColor = "";
+
+      const data = e.dataTransfer.getData("application/json");
+      if (!data) return;
+
+      let payload;
+      try { payload = JSON.parse(data); } catch { return; }
+
+      // Only handle element drops here
+      if (payload.kind !== "element" || !payload.elementType) return;
+
+      const blockEl = cardBody.closest(".content-block");
+      const blockId = blockEl?.dataset.blockId;
+      const block = getBlockById(content, blockId);
+      if (!block) return;
+
+      block.elements = Array.isArray(block.elements) ? block.elements : [];
+      block.elements.push(createElement(payload.elementType));
+
+      renderBlocks(page, content);
+    });
+  });
 }
 
 function getItemContent(item, lang) {
